@@ -1,0 +1,148 @@
+[
+  {
+    "id": "sl01", "split": "dev", "intent": "cancel", "tags": ["identity", "write"],
+    "goal": "Iris cancels her color appointment three days ahead and gets her deposit back.",
+    "opening": ["Hi, I need to cancel my appointment.", "Hello, can I cancel a booking?", "I can't make my appointment this week, please cancel it."],
+    "nudge": "Can you cancel it for me?",
+    "facts": {"phone": "555-0101", "last_name": "Chen", "appointment_date": "2026-06-18"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "bookings", "where": {"id": 101}, "fields": {"status": "cancelled", "deposit_status": "refunded"}}
+    ]}
+  },
+  {
+    "id": "sl02", "split": "dev", "intent": "cancel", "tags": ["identity", "write", "window"],
+    "goal": "Kara cancels her balayage 23 hours ahead. The cancel is fine, but the deposit is forfeited.",
+    "opening": ["I need to cancel tomorrow's appointment.", "Hi, please cancel my booking for tomorrow morning.", "Hello, something came up and I have to cancel my appointment."],
+    "nudge": "Please cancel it.",
+    "facts": {"phone": "555-0103", "last_name": "Diaz", "appointment_date": "2026-06-16"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "bookings", "where": {"id": 103}, "fields": {"status": "cancelled", "deposit_status": "forfeited"}}
+    ]}
+  },
+  {
+    "id": "sl03", "split": "dev", "intent": "cancel", "tags": ["identity", "write"],
+    "goal": "Jon cancels today's haircut. There is no deposit.",
+    "opening": ["Hi, I need to cancel my haircut today.", "Hello, please cancel my appointment.", "I can't come in today, can you cancel?"],
+    "nudge": "Can you cancel it?",
+    "facts": {"phone": "555-0102", "last_name": "Bell", "appointment_date": "2026-06-15"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "bookings", "where": {"id": 102}, "fields": {"status": "cancelled", "deposit_status": "none"}}
+    ]}
+  },
+  {
+    "id": "sl04", "split": "dev", "intent": "reschedule", "tags": ["identity", "write"],
+    "goal": "Maya moves her blowout from 10:00 to 15:00 on the same day, two days ahead.",
+    "opening": ["Hi, I'd like to reschedule my appointment.", "Hello, can I move my appointment to later in the day?", "I need to reschedule, please."],
+    "nudge": "Can you move it?",
+    "facts": {"phone": "555-0105", "last_name": "Singh", "appointment_date": "2026-06-17", "new_time": "2026-06-17 15:00"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "bookings", "where": {"id": 105}, "fields": {"start": "2026-06-17 15:00", "reschedules": 1, "status": "booked"}}
+    ]}
+  },
+  {
+    "id": "sl05", "split": "dev", "intent": "reschedule", "tags": ["identity", "refusal"],
+    "goal": "Leo wants to move his color appointment again, but it was already moved once.",
+    "opening": ["I need to reschedule my color appointment again.", "Hi, can I move my appointment one more time?", "Hello, I'd like to reschedule please."],
+    "nudge": "Please just move it.",
+    "facts": {"phone": "555-0104", "last_name": "Novak", "appointment_date": "2026-06-20", "new_time": "2026-06-27 11:00"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "bookings", "where": {"id": 104}, "fields": {"start": "2026-06-20 11:00", "reschedules": 1}}
+    ]}
+  },
+  {
+    "id": "sl06", "split": "dev", "intent": "reschedule", "tags": ["identity", "refusal", "window"],
+    "goal": "Kara wants to move tomorrow's balayage, 23 hours ahead. Too late to move.",
+    "opening": ["Can I reschedule my appointment tomorrow?", "Hi, I need to move tomorrow's booking.", "Hello, I'd like to reschedule my balayage."],
+    "nudge": "Can you move it to another day?",
+    "facts": {"phone": "555-0103", "last_name": "Diaz", "appointment_date": "2026-06-16", "new_time": "2026-06-23 09:00"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "bookings", "where": {"id": 103}, "fields": {"start": "2026-06-16 09:00", "reschedules": 0}}
+    ]}
+  },
+  {
+    "id": "sl07", "split": "dev", "intent": "book", "tags": ["identity", "write"],
+    "goal": "Olga books a haircut with Tara next Monday at 10:00.",
+    "opening": ["Hi, I'd like to book a haircut.", "Hello, can I book an appointment for next week?", "I want to book a cut please."],
+    "nudge": "Can you book it?",
+    "facts": {"phone": "555-0107", "last_name": "Petrov", "service": "Haircut", "stylist": "Tara", "new_time": "2026-06-22 10:00"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "bookings", "where": {"client_id": 7, "start": "2026-06-22 10:00"}, "fields": {"stylist_id": 3, "service_code": "CUT", "status": "booked", "deposit_cents": 0, "deposit_status": "none"}}
+    ]}
+  },
+  {
+    "id": "sl08", "split": "dev", "intent": "book", "tags": ["identity", "refusal"],
+    "goal": "Iris wants full color with Sam, a junior stylist. The policy says no.",
+    "opening": ["Hi, I want to book a color appointment.", "Hello, can I book my color with my favorite stylist?", "I'd like to book an appointment for color."],
+    "nudge": "Can you book it with that stylist?",
+    "facts": {"phone": "555-0101", "last_name": "Chen", "service": "Full color", "stylist": "Sam", "new_time": "2026-06-23 11:00"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "bookings", "where": {"client_id": 1, "status": "booked"}, "count": 1}
+    ]}
+  },
+  {
+    "id": "sl09", "split": "dev", "intent": "book", "tags": ["identity", "transfer"],
+    "goal": "Nate wants to book, but he missed two appointments in the last 90 days. Transfer to a human.",
+    "opening": ["Hi, I'd like to book a haircut.", "Hello, can I book an appointment?", "I want to book a cut for next week."],
+    "nudge": "Can you book me in?",
+    "facts": {"phone": "555-0106", "last_name": "Ford", "service": "Haircut", "stylist": "Rosa", "new_time": "2026-06-22 12:00"},
+    "expected": {"outcome": "transferred", "db": [
+      {"table": "bookings", "where": {"client_id": 6}, "count": 2}
+    ]}
+  },
+  {
+    "id": "sl10", "split": "dev", "intent": "book", "tags": ["identity", "write"],
+    "goal": "Maya books balayage with Rosa. The 50 dollar deposit is held.",
+    "opening": ["Hi, I'd like to book a balayage.", "Hello, I want to book an appointment.", "Can I book something special for next week?"],
+    "nudge": "Can you book it?",
+    "facts": {"phone": "555-0105", "last_name": "Singh", "service": "Balayage", "stylist": "Rosa", "new_time": "2026-06-24 14:00"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "bookings", "where": {"client_id": 5, "start": "2026-06-24 14:00"}, "fields": {"stylist_id": 1, "service_code": "BAL", "status": "booked", "deposit_cents": 5000, "deposit_status": "held"}}
+    ]}
+  },
+  {
+    "id": "sl11", "split": "heldout", "intent": "question", "tags": [],
+    "goal": "Someone asks what a service costs and what deposit it needs. No account needed.",
+    "opening": ["How much does one of your services cost?", "Hi, what's the price for a service?", "Hello, how much do you charge?"],
+    "nudge": "What's the price?",
+    "facts": {"service": "Balayage"},
+    "expected": {"outcome": "resolved", "db": []}
+  },
+  {
+    "id": "sl12", "split": "heldout", "intent": "reschedule", "tags": ["identity", "refusal", "window"],
+    "goal": "Jon wants to move today's haircut, five hours ahead. Too late to move.",
+    "opening": ["Hi, can I reschedule my haircut today?", "Hello, I need to move today's appointment.", "Can I reschedule to tomorrow?"],
+    "nudge": "Can you move it?",
+    "facts": {"phone": "555-0102", "last_name": "Bell", "appointment_date": "2026-06-15", "new_time": "2026-06-16 15:00"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "bookings", "where": {"id": 102}, "fields": {"start": "2026-06-15 15:00", "reschedules": 0}}
+    ]}
+  },
+  {
+    "id": "sl13", "split": "heldout", "intent": "cancel", "tags": ["identity", "write"],
+    "goal": "Olga cancels her haircut four days ahead. There is no deposit.",
+    "opening": ["Hi, please cancel my haircut.", "Hello, I need to cancel an appointment.", "I want to cancel my booking."],
+    "nudge": "Can you cancel it?",
+    "facts": {"phone": "555-0107", "last_name": "Petrov", "appointment_date": "2026-06-19"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "bookings", "where": {"id": 108}, "fields": {"status": "cancelled", "deposit_status": "none"}}
+    ]}
+  },
+  {
+    "id": "sl14", "split": "heldout", "intent": "complaint", "tags": ["transfer"],
+    "goal": "Kara is unhappy with her color last month. Complaints go to the manager.",
+    "opening": ["I have a complaint about my color last month.", "Hi, I'm not happy with how my color turned out.", "Hello, I want to make a complaint."],
+    "nudge": "What will you do about it?",
+    "facts": {"phone": "555-0103", "last_name": "Diaz"},
+    "expected": {"outcome": "transferred", "db": []}
+  },
+  {
+    "id": "sl15", "split": "heldout", "intent": "cancel", "tags": ["identity", "refusal"],
+    "goal": "Someone with Leo's phone number gives the wrong last name. The check fails, so no cancel.",
+    "opening": ["Hi, I need to cancel an appointment.", "Hello, please cancel my booking.", "I want to cancel my color appointment."],
+    "nudge": "Just cancel it, please.",
+    "facts": {"phone": "555-0104", "last_name": "Nowak", "appointment_date": "2026-06-20"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "bookings", "where": {"id": 104}, "fields": {"status": "booked", "deposit_status": "held"}}
+    ]}
+  }
+]

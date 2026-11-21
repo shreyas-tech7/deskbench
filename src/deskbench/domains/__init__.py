@@ -2,9 +2,9 @@
 
 from __future__ import annotations
 
-from . import bikeparts
+from . import bikeparts, mealkit, salon
 
-DOMAINS = {d.name: d for d in (bikeparts.DOMAIN,)}
+DOMAINS = {d.name: d for d in (bikeparts.DOMAIN, salon.DOMAIN, mealkit.DOMAIN)}
 
 
 def all_tasks():

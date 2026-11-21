@@ -7,7 +7,7 @@
       "./init.sh",
       "pytest tests/test_network_guard.py"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F02",
@@ -16,7 +16,7 @@
     "steps": [
       "pytest tests/test_domains.py"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F03",
@@ -25,7 +25,7 @@
     "steps": [
       "pytest tests/test_scorer.py"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F04",
@@ -34,7 +34,7 @@
     "steps": [
       "pytest tests/test_oracle.py -k bikeparts"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F05",
@@ -44,7 +44,7 @@
       "pytest tests/test_user.py",
       "deskbench determinism"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F06",
@@ -53,7 +53,7 @@
     "steps": [
       "pytest tests/test_policy.py"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F07",
@@ -62,7 +62,7 @@
     "steps": [
       "pytest tests/test_broken_agents.py"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F08",
@@ -72,7 +72,7 @@
       "pytest tests/test_oracle.py",
       "deskbench run --agent oracle --trials 4"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F09",
