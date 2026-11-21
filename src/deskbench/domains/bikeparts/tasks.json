@@ -1,0 +1,154 @@
+[
+  {
+    "id": "bk01", "split": "dev", "intent": "return", "tags": ["identity", "write"],
+    "goal": "Ana returns both hydraulic brake pads from order 1001, delivered 10 days ago.",
+    "opening": ["Hi, I want to return something from my last order.", "Hello. I need to return a couple of items I bought.", "Hey, can I return some brake pads?"],
+    "nudge": "Can you help me with the return?",
+    "facts": {"email": "ana.ruiz@mail.test", "zip": "97201", "order_id": "1001", "item": "Hydraulic brake pads", "quantity": "2"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "order_items", "where": {"order_id": 1001, "sku": "BR-01"}, "fields": {"returned_qty": 2}},
+      {"table": "returns", "where": {"order_id": 1001, "sku": "BR-01"}, "fields": {"qty": 2, "refund_cents": 3798}}
+    ]}
+  },
+  {
+    "id": "bk02", "split": "dev", "intent": "return", "tags": ["identity", "write"],
+    "goal": "Ana returns the chain from order 1001.",
+    "opening": ["I'd like to return a chain I ordered.", "Hi there, I need to return part of an order.", "Hello, how do I return an item?"],
+    "nudge": "So can I return it?",
+    "facts": {"email": "ana.ruiz@mail.test", "zip": "97201", "order_id": "1001", "item": "KMC X11 chain"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "order_items", "where": {"order_id": 1001, "sku": "CH-11"}, "fields": {"returned_qty": 1}},
+      {"table": "returns", "where": {"order_id": 1001, "sku": "CH-11"}, "fields": {"qty": 1, "refund_cents": 3499}}
+    ]}
+  },
+  {
+    "id": "bk03", "split": "dev", "intent": "cancel", "tags": ["identity", "write"],
+    "goal": "Ben cancels order 1002, which is still processing.",
+    "opening": ["I need to cancel an order I placed two days ago.", "Hi, please cancel my order.", "Hello, I changed my mind and want to cancel my order."],
+    "nudge": "Can you cancel it for me?",
+    "facts": {"email": "ben.okafor@mail.test", "zip": "60614", "order_id": "1002"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "orders", "where": {"id": 1002}, "fields": {"status": "cancelled"}}
+    ]}
+  },
+  {
+    "id": "bk04", "split": "dev", "intent": "cancel", "tags": ["identity", "refusal"],
+    "goal": "Dev wants to cancel order 1004, but it has shipped. The policy says no.",
+    "opening": ["I want to cancel my pedal order.", "Hi, can you cancel my order please?", "Hello, I'd like to cancel an order."],
+    "nudge": "Please just cancel it.",
+    "facts": {"email": "dev.patel@mail.test", "zip": "78704", "order_id": "1004"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "orders", "where": {"id": 1004}, "fields": {"status": "shipped"}}
+    ]}
+  },
+  {
+    "id": "bk05", "split": "dev", "intent": "return", "tags": ["identity", "refusal", "window"],
+    "goal": "Chloe wants to return a saddle that arrived 51 days ago. The policy says no.",
+    "opening": ["I want to return a saddle that I don't like.", "Hi, I'd like to return my saddle.", "Hello, can I return an item from April?"],
+    "nudge": "Can I still return it?",
+    "facts": {"email": "chloe.park@mail.test", "zip": "30307", "order_id": "1003", "item": "Comfort saddle"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "returns", "where": {"order_id": 1003}, "count": 0}
+    ]}
+  },
+  {
+    "id": "bk06", "split": "dev", "intent": "return", "tags": ["identity", "refusal", "window"],
+    "goal": "Farid wants to return a chain that arrived 32 days ago, two days past the window.",
+    "opening": ["Hi, I need to return a chain.", "I'd like to return something, it's only been about a month.", "Hello, I want to return a part I never used."],
+    "nudge": "Can you process the return?",
+    "facts": {"email": "farid.h@mail.test", "zip": "98103", "order_id": "1006", "item": "SRAM PC-1031 chain"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "returns", "where": {"order_id": 1006}, "count": 0}
+    ]}
+  },
+  {
+    "id": "bk07", "split": "dev", "intent": "return", "tags": ["identity", "refusal"],
+    "goal": "Erin wants to return a light that was a final-sale item.",
+    "opening": ["I want to return a front light.", "Hi, I'd like to return a light I bought.", "Hello, I need to send back a light."],
+    "nudge": "Can I return it?",
+    "facts": {"email": "erin.walsh@mail.test", "zip": "02139", "order_id": "1005", "item": "USB front light"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "returns", "where": {"order_id": 1005}, "count": 0}
+    ]}
+  },
+  {
+    "id": "bk08", "split": "dev", "intent": "return", "tags": ["identity", "write"],
+    "goal": "Erin returns the road tire from order 1005, which is allowed.",
+    "opening": ["I want to return a tire.", "Hi, I need to return a tire I ordered.", "Hello, can I return one item from my order?"],
+    "nudge": "Can you help me return it?",
+    "facts": {"email": "erin.walsh@mail.test", "zip": "02139", "order_id": "1005", "item": "Road tire 700x28"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "order_items", "where": {"order_id": 1005, "sku": "TR-32"}, "fields": {"returned_qty": 1}},
+      {"table": "returns", "where": {"order_id": 1005, "sku": "TR-32"}, "fields": {"qty": 1, "refund_cents": 4999}}
+    ]}
+  },
+  {
+    "id": "bk09", "split": "dev", "intent": "exchange", "tags": ["identity", "write"],
+    "goal": "Gina exchanges her gravel tire for a road tire. Same category and price, in stock.",
+    "opening": ["I want to exchange a tire for a different one.", "Hi, can I swap a tire I bought?", "Hello, I'd like an exchange please."],
+    "nudge": "Can you do the exchange?",
+    "facts": {"email": "gina.m@mail.test", "zip": "11215", "order_id": "1007", "item": "Gravel tire 700x40", "new_item": "Road tire 700x28"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "exchanges", "where": {"order_id": 1007, "old_sku": "TR-28"}, "fields": {"new_sku": "TR-32"}},
+      {"table": "order_items", "where": {"order_id": 1007, "sku": "TR-28"}, "fields": {"exchanged_qty": 1}},
+      {"table": "products", "where": {"sku": "TR-32"}, "fields": {"stock": 5}}
+    ]}
+  },
+  {
+    "id": "bk10", "split": "dev", "intent": "exchange", "tags": ["identity", "refusal"],
+    "goal": "Chloe wants to exchange a chain for one that is out of stock.",
+    "opening": ["I want to exchange a chain.", "Hi, I'd like to swap one chain for another.", "Hello, can I exchange an item?"],
+    "nudge": "Can you swap it?",
+    "facts": {"email": "chloe.park@mail.test", "zip": "30307", "order_id": "1010", "item": "KMC X11 chain", "new_item": "Shimano 12-speed chain"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "exchanges", "where": {"order_id": 1010}, "count": 0}
+    ]}
+  },
+  {
+    "id": "bk11", "split": "heldout", "intent": "exchange", "tags": ["identity", "refusal"],
+    "goal": "Hugo wants to exchange flat pedals for clipless pedals, which cost more.",
+    "opening": ["I want to exchange my pedals.", "Hi, can I swap my pedals for a better pair?", "Hello, I'd like to exchange something."],
+    "nudge": "Can you make the swap?",
+    "facts": {"email": "hugo.lind@mail.test", "zip": "55408", "order_id": "1008", "item": "Flat pedals", "new_item": "Clipless pedals"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "exchanges", "where": {"order_id": 1008}, "count": 0}
+    ]}
+  },
+  {
+    "id": "bk12", "split": "heldout", "intent": "damaged", "tags": ["transfer"],
+    "goal": "Gina's tire arrived damaged. The policy says transfer to a human.",
+    "opening": ["My new tire arrived damaged, it has a cut in it.", "Hi, the tire I got came damaged in the box.", "Hello, my order arrived damaged."],
+    "nudge": "What can you do about it?",
+    "facts": {"email": "gina.m@mail.test", "zip": "11215", "order_id": "1007", "item": "Gravel tire 700x40"},
+    "expected": {"outcome": "transferred", "db": []}
+  },
+  {
+    "id": "bk13", "split": "heldout", "intent": "return", "tags": ["identity", "write"],
+    "goal": "Hugo returns his race saddle but does not know the order number.",
+    "opening": ["I want to return a saddle.", "Hi, I need to return my new saddle.", "Hello, can I return a saddle I bought last month?"],
+    "nudge": "Can I return it?",
+    "facts": {"email": "hugo.lind@mail.test", "zip": "55408", "item": "Race saddle"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "order_items", "where": {"order_id": 1008, "sku": "SD-02"}, "fields": {"returned_qty": 1}},
+      {"table": "returns", "where": {"order_id": 1008, "sku": "SD-02"}, "fields": {"qty": 1, "refund_cents": 5999}}
+    ]}
+  },
+  {
+    "id": "bk14", "split": "heldout", "intent": "question", "tags": [],
+    "goal": "A shopper asks whether a product is in stock and what it costs. No account needed.",
+    "opening": ["I have a question about a product.", "Hi, is something in stock?", "Hello, quick question about one of your products."],
+    "nudge": "Can you check for me?",
+    "facts": {"item": "Race saddle"},
+    "expected": {"outcome": "resolved", "db": []}
+  },
+  {
+    "id": "bk15", "split": "heldout", "intent": "return", "tags": ["identity", "refusal"],
+    "goal": "Someone with Gina's email gives the wrong zip code. The identity check fails, so no return.",
+    "opening": ["I want to return a tire.", "Hi, I need to return something.", "Hello, I'd like to return my tire."],
+    "nudge": "Can you just do the return?",
+    "facts": {"email": "gina.m@mail.test", "zip": "10001", "order_id": "1007", "item": "Gravel tire 700x40"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "returns", "where": {"order_id": 1007}, "count": 0}
+    ]}
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "F01",
+    "area": "setup",
+    "description": "init.sh makes .venv, installs, lints, checks links and runs every test offline; a conftest guard blocks network",
+    "steps": [
+      "./init.sh",
+      "pytest tests/test_network_guard.py"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F02",
+    "area": "domain",
+    "description": "Bike-parts domain: one-page policy, seeded SQLite database, 10 tools, 15 tasks",
+    "steps": [
+      "pytest tests/test_domains.py"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F03",
+    "area": "scorer",
+    "description": "State scorer: named fields, row counts, unexpected changes, ticket outcome, policy violations",
+    "steps": [
+      "pytest tests/test_scorer.py"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F04",
+    "area": "oracle",
+    "description": "Bike-parts oracle passes all 15 bike tasks",
+    "steps": [
+      "pytest tests/test_oracle.py -k bikeparts"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F05",
+    "area": "user",
+    "description": "Scripted user state machine: explicit transition table, every transition tested, facts hidden until asked, same seed gives byte-identical transcripts",
+    "steps": [
+      "pytest tests/test_user.py",
+      "deskbench determinism"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F06",
+    "area": "policy",
+    "description": "Every policy rule has one breaking call and one following call in tests",
+    "steps": [
+      "pytest tests/test_policy.py"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F07",
+    "area": "broken",
+    "description": "Broken agents (skip identity, ignore windows, skip confirmation) fail exactly the tasks they should",
+    "steps": [
+      "pytest tests/test_broken_agents.py"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F08",
+    "area": "domain",
+    "description": "Salon and meal-kit domains with policies, databases, tools, 15 tasks each and oracles; oracle passes all 45",
+    "steps": [
+      "pytest tests/test_oracle.py",
+      "deskbench run --agent oracle --trials 4"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F09",
+    "area": "agent",
+    "description": "OpenAI-compatible agent loop with tool calling, a JSON action fallback, record mode and fixture replay, tested against a local fake server",
+    "steps": [
+      "pytest tests/test_llm_agent.py"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F10",
+    "area": "metrics",
+    "description": "pass^1 to pass^4 with the unbiased estimator, policy violations per 100 tasks, wrong calls, turns and tokens, with bootstrap intervals over tasks; dev and held-out splits",
+    "steps": [
+      "pytest tests/test_metrics.py"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F11",
+    "area": "report",
+    "description": "Report: results table, breakdown by domain, failure list linking to transcripts; README tables generated from result files",
+    "steps": [
+      "deskbench report",
+      "deskbench readme --check"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F12",
+    "area": "record",
+    "description": "Record-mode run: probes hosts, resumes from fixtures, or the README states it was blocked and why",
+    "steps": [
+      "deskbench record --provider groq --dry-run",
+      "pytest tests/test_repo.py -k record"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F13",
+    "area": "docs",
+    "description": "Domain guide docs/ADD_A_DOMAIN.md, tested by adding a toy domain in a test",
+    "steps": [
+      "pytest tests/test_add_domain.py"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F14",
+    "area": "quality",
+    "description": "README quality bar, CI workflow, issue templates, CHANGELOG, CONTRIBUTING, topics, social preview, static results page, DEMO transcript, link check",
+    "steps": [
+      "pytest tests/test_repo.py",
+      "python scripts/check_links.py",
+      "actionlint"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F15",
+    "area": "study",
+    "description": "Study-later kit: WALKTHROUGH, INTERVIEW_QA (about 15), DECISIONS",
+    "steps": [
+      "pytest tests/test_repo.py -k study"
+    ],
+    "passes": false
+  },
+  {
+    "id": "F16",
+    "area": "release",
+    "description": "Release check done (ponytail-review, gitleaks, pip-audit, ruff S, actionlint, links, humanizer, outside check) and hand-off files written",
+    "steps": [
+      "cat docs/RELEASE_CHECK.md",
+      "cat docs/HUMAN_STEPS.md"
+    ],
+    "passes": false
+  }
+]
