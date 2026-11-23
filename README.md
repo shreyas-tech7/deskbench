@@ -10,11 +10,11 @@ deskbench tests customer-support agents on the rules of three invented small bus
 
 ## The problem
 
-A support agent that handles a refund right once can still break the refund rule on the next try. Most demos show one good chat. A team that ships an agent to a bike shop or a salon needs to know two other things. Does it follow the written policy every time? And does it change only the records it should?
+A support agent that handles a refund right once can still break the refund rule on the next try. Most demos show one good chat. A team that ships an agent to a bike shop or a salon needs to know whether it follows the written policy every time, and whether it changes only the records it should.
 
 deskbench answers both with numbers. Each of the 45 tasks has a hidden customer goal and an expected final database state. Some tasks need a polite refusal because the policy forbids the request. Some need a hand-off to a human. Every tool call passes through one dispatcher that checks the policy before the call runs, so a rule break counts even when the final state looks fine.
 
-The headline metric is pass^k: the chance that k tries at the same task all succeed. It shows how often an agent stays reliable, which a single pass rate hides.
+The headline metric is pass^k: the chance that k tries at the same task all succeed. A single pass rate cannot show that.
 
 ## How it works
 
@@ -74,7 +74,7 @@ pass^k uses the unbiased estimator from τ-bench. For a task with n trials and c
 <!-- /gen:results -->
 
 <!-- gen:decay -->
-The flaky agent shows why pass^k matters. Its pass^1 is 88.9% (85.6 to 92.2), but its pass^4 falls to 55.6% (42.2 to 68.9). One good chat in four tries hides that.
+The flaky agent forgets to ask for a yes on one change in four. Its pass^1 is 88.9% (85.6 to 92.2), and its pass^4 falls to 55.6% (42.2 to 68.9), because a task now passes only if all four tries do.
 <!-- /gen:decay -->
 
 The broken agents show that the scorer catches what it should. The agent that skips the identity check fails every task that touches an account. The agent that ignores time windows fails every task tagged `window`. `tests/test_broken_agents.py` checks both sets task by task.

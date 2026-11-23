@@ -1,6 +1,6 @@
 # Walkthrough
 
-This is a tour of every file. Each sentence says one thing.
+This is a tour of every file, in short sentences.
 
 ## The big picture
 

@@ -10,8 +10,8 @@ def snapshot(db: sqlite3.Connection) -> dict[str, dict[int, dict]]:
     return {
         t: {
             r["_rid"]: {k: r[k] for k in r.keys() if k != "_rid"}
-            for r in db.execute(f'SELECT rowid AS _rid, * FROM "{t}"')
-        }  # noqa: S608 (table names come from sqlite_master)
+            for r in db.execute(f'SELECT rowid AS _rid, * FROM "{t}"')  # noqa: S608 (table names come from sqlite_master)
+        }
         for t in tables
         if t != "ticket"
     }

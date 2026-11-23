@@ -23,7 +23,7 @@ With the unbiased estimator from τ-bench. For a task with n trials and c passes
 
 **4. Why score the database and not the chat text?**
 
-The chat can sound right and do the wrong thing. "Your refund is on its way" means nothing if the refund row is missing, or if two rows changed. The database is the ground truth a shop cares about. `scorer.check_db` compares the named rows with the expected values and also flags every row that changed outside them. The ticket table records the outcome, so even "refused" and "transferred" are state, not words.
+The chat can sound right and do the wrong thing. "Your refund is on its way" means nothing if the refund row is missing, or if two rows changed. The database is the ground truth a shop cares about. `scorer.check_db` compares the named rows with the expected values and also flags every row that changed outside them. The ticket table records whether the chat ended resolved, refused or transferred, so the outcome is in the database too.
 
 **5. How does the scripted user hide facts until the agent asks?**
 

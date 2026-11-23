@@ -53,7 +53,7 @@ GIVE_UP = "I'll try again later. Bye."
 class ScriptedUser:
     def __init__(self, domain: Domain, task: dict, seed: int, max_turns: int = 20):
         self.domain, self.task = domain, task
-        self.rng = random.Random(f"{task['id']}:{seed}")
+        self.rng = random.Random(f"{task['id']}:{seed}")  # noqa: S311 (seeded for replay, not security)
         self.state, self.turns, self.nudges, self.max_turns = START, 0, 0, max_turns
         self.revealed: list[str] = []
 

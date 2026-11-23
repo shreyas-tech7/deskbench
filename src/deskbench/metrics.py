@@ -28,7 +28,7 @@ def interval(values: list[float], boot: int = BOOT, seed: int = 0) -> tuple[floa
     """Mean with a percentile bootstrap 95% interval, resampling tasks with replacement."""
     if not values:
         return (0.0, 0.0, 0.0)
-    rng = random.Random(seed)
+    rng = random.Random(seed)  # noqa: S311 (seeded bootstrap, not security)
     n = len(values)
     means = sorted(sum(rng.choices(values, k=n)) / n for _ in range(boot))
     return (sum(values) / n, means[int(0.025 * boot)], means[int(0.975 * boot) - 1])

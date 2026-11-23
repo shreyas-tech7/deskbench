@@ -164,8 +164,8 @@ def blocks(root: Path) -> dict[str, str]:
             f"{sec['summary']['all']['violations'][0]:.1f} violations per 100 trials."
         ),
         "decay": (
-            f"The flaky agent shows why pass^k matters. Its pass^1 is {pct(fa['pass']['1'])}, "
-            f"but its pass^4 falls to {pct(fa['pass']['4'])}. One good chat in four tries hides that."
+            f"The flaky agent forgets to ask for a yes on one change in four. Its pass^1 is {pct(fa['pass']['1'])}, "
+            f"and its pass^4 falls to {pct(fa['pass']['4'])}, because a task now passes only if all four tries do."
         ),
         "cost": "\n".join(
             [

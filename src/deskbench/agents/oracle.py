@@ -53,7 +53,7 @@ class ScriptAgent:
 
     def reset(self, domain, seed):
         self.domain, self.gen, self.tokens = domain, None, 0
-        self.rng = random.Random(f"agent:{seed}")
+        self.rng = random.Random(f"agent:{seed}")  # noqa: S311 (seeded for replay, not security)
 
     @property
     def now(self) -> datetime:
