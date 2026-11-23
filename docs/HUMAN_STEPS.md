@@ -2,14 +2,14 @@
 
 Steps left for Shreyas, in order. Skip steps 1, 2 and 7 if the pull request, pre-release and About box already exist.
 
-Release commit: `RELEASE_SHA`.
+Release commit: `016b6417866f30ab5355aa27a58598583e612b7c`.
 Branch: `claude/project-thread-6e5u85`.
 
 1. **Open a pull request** from `claude/project-thread-6e5u85` into `main` on GitHub. Read the diff. Merge with a merge commit, so the release commit stays in the history of `main`.
 2. **Create the tag** on the release commit:
    ```bash
    git fetch origin
-   git tag -a v0.1.0-rc1 RELEASE_SHA -m "Release candidate 1"
+   git tag -a v0.1.0-rc1 016b6417866f30ab5355aa27a58598583e612b7c -m "Release candidate 1"
    git push origin v0.1.0-rc1
    ```
    Or create a pre-release with that tag on the GitHub Releases page.

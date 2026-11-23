@@ -2,7 +2,7 @@
 
 ## v0.1.0-rc1 (unreleased)
 
-Release commit: written at release time, see the last entry below.
+Release commit: `016b6417866f30ab5355aa27a58598583e612b7c`.
 
 - Three invented domains (bike parts, salon, meal kit) with a policy, a seeded SQLite database, ten tools and 15 tasks each.
 - A scripted user built as an explicit state machine. The same seed gives byte-identical transcripts.
