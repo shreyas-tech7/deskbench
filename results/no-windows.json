@@ -1,0 +1,3993 @@
+{
+ "meta": {
+  "agent": "no-windows",
+  "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+  "date": "2026-11-23",
+  "model": "none (scripted agent)",
+  "python": "3.11.18",
+  "seconds": 0.22,
+  "seed": 101,
+  "synthetic": false,
+  "trials": 4,
+  "version": "0.1.0rc1"
+ },
+ "summary": {
+  "all": {
+   "pass": {
+    "1": [
+     0.8444444444444444,
+     0.7333333333333333,
+     0.9333333333333333
+    ],
+    "2": [
+     0.8444444444444444,
+     0.7333333333333333,
+     0.9333333333333333
+    ],
+    "3": [
+     0.8444444444444444,
+     0.7333333333333333,
+     0.9333333333333333
+    ],
+    "4": [
+     0.8444444444444444,
+     0.7333333333333333,
+     0.9333333333333333
+    ]
+   },
+   "tasks": 45,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    9.533333333333333,
+    8.6,
+    10.377777777777778
+   ],
+   "violations": [
+    15.555555555555555,
+    6.666666666666667,
+    26.666666666666668
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "bikeparts": {
+   "pass": {
+    "1": [
+     0.8666666666666667,
+     0.6666666666666666,
+     1.0
+    ],
+    "2": [
+     0.8666666666666667,
+     0.6666666666666666,
+     1.0
+    ],
+    "3": [
+     0.8666666666666667,
+     0.6666666666666666,
+     1.0
+    ],
+    "4": [
+     0.8666666666666667,
+     0.6666666666666666,
+     1.0
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    9.8,
+    8.066666666666666,
+    11.133333333333333
+   ],
+   "violations": [
+    13.333333333333334,
+    0.0,
+    33.333333333333336
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "dev": {
+   "pass": {
+    "1": [
+     0.8,
+     0.6333333333333333,
+     0.9333333333333333
+    ],
+    "2": [
+     0.8,
+     0.6333333333333333,
+     0.9333333333333333
+    ],
+    "3": [
+     0.8,
+     0.6333333333333333,
+     0.9333333333333333
+    ],
+    "4": [
+     0.8,
+     0.6333333333333333,
+     0.9333333333333333
+    ]
+   },
+   "tasks": 30,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    10.533333333333333,
+    9.933333333333334,
+    11.133333333333333
+   ],
+   "violations": [
+    20.0,
+    6.666666666666667,
+    36.666666666666664
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "heldout": {
+   "pass": {
+    "1": [
+     0.9333333333333333,
+     0.8,
+     1.0
+    ],
+    "2": [
+     0.9333333333333333,
+     0.8,
+     1.0
+    ],
+    "3": [
+     0.9333333333333333,
+     0.8,
+     1.0
+    ],
+    "4": [
+     0.9333333333333333,
+     0.8,
+     1.0
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    7.533333333333333,
+    5.4,
+    9.533333333333333
+   ],
+   "violations": [
+    6.666666666666667,
+    0.0,
+    20.0
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "mealkit": {
+   "pass": {
+    "1": [
+     0.8666666666666667,
+     0.6666666666666666,
+     1.0
+    ],
+    "2": [
+     0.8666666666666667,
+     0.6666666666666666,
+     1.0
+    ],
+    "3": [
+     0.8666666666666667,
+     0.6666666666666666,
+     1.0
+    ],
+    "4": [
+     0.8666666666666667,
+     0.6666666666666666,
+     1.0
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    9.266666666666667,
+    7.666666666666667,
+    10.466666666666667
+   ],
+   "violations": [
+    13.333333333333334,
+    0.0,
+    33.333333333333336
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "salon": {
+   "pass": {
+    "1": [
+     0.8,
+     0.6,
+     1.0
+    ],
+    "2": [
+     0.8,
+     0.6,
+     1.0
+    ],
+    "3": [
+     0.8,
+     0.6,
+     1.0
+    ],
+    "4": [
+     0.8,
+     0.6,
+     1.0
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    9.533333333333333,
+    7.666666666666667,
+    11.0
+   ],
+   "violations": [
+    20.0,
+    0.0,
+    40.0
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "trials": [
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "returns {'order_id': 1003}: expected 0 rows, found 1",
+    "unexpected change in order_items: {'order_id': 1003, 'sku': 'SD-01', 'qty': 1, 'price_cents': 5999, 'returned_qty': 1, 'exchanged_qty': 0}",
+    "policy BK_WINDOW: return_item 51 days after delivery, the window is 30"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-windows/bk05-seed101.json",
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "return_item 51 days after delivery, the window is 30",
+     "rule": "BK_WINDOW",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "returns {'order_id': 1003}: expected 0 rows, found 1",
+    "unexpected change in order_items: {'order_id': 1003, 'sku': 'SD-01', 'qty': 1, 'price_cents': 5999, 'returned_qty': 1, 'exchanged_qty': 0}",
+    "policy BK_WINDOW: return_item 51 days after delivery, the window is 30"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "return_item 51 days after delivery, the window is 30",
+     "rule": "BK_WINDOW",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "returns {'order_id': 1003}: expected 0 rows, found 1",
+    "unexpected change in order_items: {'order_id': 1003, 'sku': 'SD-01', 'qty': 1, 'price_cents': 5999, 'returned_qty': 1, 'exchanged_qty': 0}",
+    "policy BK_WINDOW: return_item 51 days after delivery, the window is 30"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "return_item 51 days after delivery, the window is 30",
+     "rule": "BK_WINDOW",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "returns {'order_id': 1003}: expected 0 rows, found 1",
+    "unexpected change in order_items: {'order_id': 1003, 'sku': 'SD-01', 'qty': 1, 'price_cents': 5999, 'returned_qty': 1, 'exchanged_qty': 0}",
+    "policy BK_WINDOW: return_item 51 days after delivery, the window is 30"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "return_item 51 days after delivery, the window is 30",
+     "rule": "BK_WINDOW",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "returns {'order_id': 1006}: expected 0 rows, found 1",
+    "unexpected change in order_items: {'order_id': 1006, 'sku': 'CH-10', 'qty': 1, 'price_cents': 3499, 'returned_qty': 1, 'exchanged_qty': 0}",
+    "policy BK_WINDOW: return_item 32 days after delivery, the window is 30"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-windows/bk06-seed101.json",
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "return_item 32 days after delivery, the window is 30",
+     "rule": "BK_WINDOW",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "returns {'order_id': 1006}: expected 0 rows, found 1",
+    "unexpected change in order_items: {'order_id': 1006, 'sku': 'CH-10', 'qty': 1, 'price_cents': 3499, 'returned_qty': 1, 'exchanged_qty': 0}",
+    "policy BK_WINDOW: return_item 32 days after delivery, the window is 30"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "return_item 32 days after delivery, the window is 30",
+     "rule": "BK_WINDOW",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "returns {'order_id': 1006}: expected 0 rows, found 1",
+    "unexpected change in order_items: {'order_id': 1006, 'sku': 'CH-10', 'qty': 1, 'price_cents': 3499, 'returned_qty': 1, 'exchanged_qty': 0}",
+    "policy BK_WINDOW: return_item 32 days after delivery, the window is 30"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "return_item 32 days after delivery, the window is 30",
+     "rule": "BK_WINDOW",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "returns {'order_id': 1006}: expected 0 rows, found 1",
+    "unexpected change in order_items: {'order_id': 1006, 'sku': 'CH-10', 'qty': 1, 'price_cents': 3499, 'returned_qty': 1, 'exchanged_qty': 0}",
+    "policy BK_WINDOW: return_item 32 days after delivery, the window is 30"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "return_item 32 days after delivery, the window is 30",
+     "rule": "BK_WINDOW",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "bookings {'id': 103}: deposit_status is 'refunded', expected 'forfeited'",
+    "policy SL_DEPOSIT: refund_deposit was True but the deposit is not refundable"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/no-windows/sl02-seed101.json",
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "refund_deposit was True but the deposit is not refundable",
+     "rule": "SL_DEPOSIT",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "bookings {'id': 103}: deposit_status is 'refunded', expected 'forfeited'",
+    "policy SL_DEPOSIT: refund_deposit was True but the deposit is not refundable"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "refund_deposit was True but the deposit is not refundable",
+     "rule": "SL_DEPOSIT",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "bookings {'id': 103}: deposit_status is 'refunded', expected 'forfeited'",
+    "policy SL_DEPOSIT: refund_deposit was True but the deposit is not refundable"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "refund_deposit was True but the deposit is not refundable",
+     "rule": "SL_DEPOSIT",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "bookings {'id': 103}: deposit_status is 'refunded', expected 'forfeited'",
+    "policy SL_DEPOSIT: refund_deposit was True but the deposit is not refundable"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "refund_deposit was True but the deposit is not refundable",
+     "rule": "SL_DEPOSIT",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "bookings {'id': 103}: start is '2026-06-23 09:00', expected '2026-06-16 09:00'",
+    "bookings {'id': 103}: reschedules is 1, expected 0",
+    "policy SL_RESCHEDULE: moved an appointment 23 hours ahead, the limit is 24"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 7,
+   "transcript_file": "results/transcripts/no-windows/sl06-seed101.json",
+   "turns": 13,
+   "violations": [
+    {
+     "detail": "moved an appointment 23 hours ahead, the limit is 24",
+     "rule": "SL_RESCHEDULE",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "bookings {'id': 103}: start is '2026-06-23 09:00', expected '2026-06-16 09:00'",
+    "bookings {'id': 103}: reschedules is 1, expected 0",
+    "policy SL_RESCHEDULE: moved an appointment 23 hours ahead, the limit is 24"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [
+    {
+     "detail": "moved an appointment 23 hours ahead, the limit is 24",
+     "rule": "SL_RESCHEDULE",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "bookings {'id': 103}: start is '2026-06-23 09:00', expected '2026-06-16 09:00'",
+    "bookings {'id': 103}: reschedules is 1, expected 0",
+    "policy SL_RESCHEDULE: moved an appointment 23 hours ahead, the limit is 24"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [
+    {
+     "detail": "moved an appointment 23 hours ahead, the limit is 24",
+     "rule": "SL_RESCHEDULE",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "bookings {'id': 103}: start is '2026-06-23 09:00', expected '2026-06-16 09:00'",
+    "bookings {'id': 103}: reschedules is 1, expected 0",
+    "policy SL_RESCHEDULE: moved an appointment 23 hours ahead, the limit is 24"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [
+    {
+     "detail": "moved an appointment 23 hours ahead, the limit is 24",
+     "rule": "SL_RESCHEDULE",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "bookings {'id': 102}: start is '2026-06-16 15:00', expected '2026-06-15 15:00'",
+    "bookings {'id': 102}: reschedules is 1, expected 0",
+    "policy SL_RESCHEDULE: moved an appointment 5 hours ahead, the limit is 24"
+   ],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 7,
+   "transcript_file": "results/transcripts/no-windows/sl12-seed101.json",
+   "turns": 13,
+   "violations": [
+    {
+     "detail": "moved an appointment 5 hours ahead, the limit is 24",
+     "rule": "SL_RESCHEDULE",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "bookings {'id': 102}: start is '2026-06-16 15:00', expected '2026-06-15 15:00'",
+    "bookings {'id': 102}: reschedules is 1, expected 0",
+    "policy SL_RESCHEDULE: moved an appointment 5 hours ahead, the limit is 24"
+   ],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [
+    {
+     "detail": "moved an appointment 5 hours ahead, the limit is 24",
+     "rule": "SL_RESCHEDULE",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "bookings {'id': 102}: start is '2026-06-16 15:00', expected '2026-06-15 15:00'",
+    "bookings {'id': 102}: reschedules is 1, expected 0",
+    "policy SL_RESCHEDULE: moved an appointment 5 hours ahead, the limit is 24"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [
+    {
+     "detail": "moved an appointment 5 hours ahead, the limit is 24",
+     "rule": "SL_RESCHEDULE",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "bookings {'id': 102}: start is '2026-06-16 15:00', expected '2026-06-15 15:00'",
+    "bookings {'id': 102}: reschedules is 1, expected 0",
+    "policy SL_RESCHEDULE: moved an appointment 5 hours ahead, the limit is 24"
+   ],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [
+    {
+     "detail": "moved an appointment 5 hours ahead, the limit is 24",
+     "rule": "SL_RESCHEDULE",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "credits {'subscriber_id': 2}: expected 0 rows, found 1",
+    "policy MK_CREDIT: credit for a box delivered 18 days ago, the limit is 14"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/no-windows/mk02-seed101.json",
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "credit for a box delivered 18 days ago, the limit is 14",
+     "rule": "MK_CREDIT",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "credits {'subscriber_id': 2}: expected 0 rows, found 1",
+    "policy MK_CREDIT: credit for a box delivered 18 days ago, the limit is 14"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "credit for a box delivered 18 days ago, the limit is 14",
+     "rule": "MK_CREDIT",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "credits {'subscriber_id': 2}: expected 0 rows, found 1",
+    "policy MK_CREDIT: credit for a box delivered 18 days ago, the limit is 14"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "credit for a box delivered 18 days ago, the limit is 14",
+     "rule": "MK_CREDIT",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "credits {'subscriber_id': 2}: expected 0 rows, found 1",
+    "policy MK_CREDIT: credit for a box delivered 18 days ago, the limit is 14"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "credit for a box delivered 18 days ago, the limit is 14",
+     "rule": "MK_CREDIT",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "deliveries {'id': 212}: status is 'skipped', expected 'scheduled'",
+    "policy MK_CUTOFF: skipped a box 3 days away, it must be more than 4"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/no-windows/mk06-seed101.json",
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "skipped a box 3 days away, it must be more than 4",
+     "rule": "MK_CUTOFF",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "deliveries {'id': 212}: status is 'skipped', expected 'scheduled'",
+    "policy MK_CUTOFF: skipped a box 3 days away, it must be more than 4"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "skipped a box 3 days away, it must be more than 4",
+     "rule": "MK_CUTOFF",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "deliveries {'id': 212}: status is 'skipped', expected 'scheduled'",
+    "policy MK_CUTOFF: skipped a box 3 days away, it must be more than 4"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "skipped a box 3 days away, it must be more than 4",
+     "rule": "MK_CUTOFF",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "deliveries {'id': 212}: status is 'skipped', expected 'scheduled'",
+    "policy MK_CUTOFF: skipped a box 3 days away, it must be more than 4"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "skipped a box 3 days away, it must be more than 4",
+     "rule": "MK_CUTOFF",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-windows",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  }
+ ]
+}

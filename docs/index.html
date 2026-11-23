@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>deskbench results</title>
+<style>
+:root { --bg:#ffffff; --fg:#1b1f24; --muted:#57606a; --line:#d0d7de; --head:#f6f8fa; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0d1117; --fg:#e6edf3; --muted:#9aa4ae; --line:#30363d; --head:#161b22; } }
+body { background:var(--bg); color:var(--fg); font:15px/1.5 system-ui, sans-serif; margin:0 auto; max-width:1100px; padding:24px 16px; }
+table { border-collapse:collapse; width:100%; margin:12px 0 28px; font-size:13px; display:block; overflow-x:auto; }
+th, td { border:1px solid var(--line); padding:6px 8px; text-align:left; white-space:nowrap; }
+th { background:var(--head); }
+li, p.meta { color:var(--muted); }
+</style>
+</head>
+<body>
+<h1 id="top">deskbench results</h1>
+<p>Support agents on three invented small businesses, scored by the database state at the end of each chat.
+pass^k is the chance that k trials of the same task all pass. Brackets hold a bootstrap 95% interval over tasks.</p>
+<ul><li>`oracle`: run of 2026-11-23, model none (scripted agent), seed 101 to 104, 45 tasks with 4 trials each, file `results/oracle.json`.</li><li>`no-identity`: run of 2026-11-23, model none (scripted agent), seed 101 to 104, 45 tasks with 4 trials each, file `results/no-identity.json`.</li><li>`no-windows`: run of 2026-11-23, model none (scripted agent), seed 101 to 104, 45 tasks with 4 trials each, file `results/no-windows.json`.</li><li>`flaky`: run of 2026-11-23, model none (scripted agent), seed 101 to 104, 45 tasks with 4 trials each, file `results/flaky.json`. Synthetic agent, not a model.</li></ul>
+<h2 id="results">Results</h2>
+<table><thead><tr><th>Agent</th><th>pass^1</th><th>pass^2</th><th>pass^3</th><th>pass^4</th><th>Violations per 100 trials</th><th>Wrong tool calls per task</th></tr></thead><tbody><tr><td>Oracle (scripted, follows policy)</td><td>100.0% (100.0 to 100.0)</td><td>100.0% (100.0 to 100.0)</td><td>100.0% (100.0 to 100.0)</td><td>100.0% (100.0 to 100.0)</td><td>0.0 (0.0 to 0.0)</td><td>0.00 (0.00 to 0.00)</td></tr><tr><td>Broken: skips the identity check</td><td>13.3% (4.4 to 24.4)</td><td>13.3% (4.4 to 24.4)</td><td>13.3% (4.4 to 24.4)</td><td>13.3% (4.4 to 24.4)</td><td>135.6 (113.3 to 155.6)</td><td>0.00 (0.00 to 0.00)</td></tr><tr><td>Broken: ignores time windows</td><td>84.4% (73.3 to 93.3)</td><td>84.4% (73.3 to 93.3)</td><td>84.4% (73.3 to 93.3)</td><td>84.4% (73.3 to 93.3)</td><td>15.6 (6.7 to 26.7)</td><td>0.00 (0.00 to 0.00)</td></tr><tr><td>Flaky: skips the yes on 1 in 4 changes (synthetic)</td><td>88.9% (85.6 to 92.2)</td><td>77.8% (71.1 to 84.4)</td><td>66.7% (56.7 to 76.7)</td><td>55.6% (42.2 to 68.9)</td><td>11.1 (7.8 to 14.4)</td><td>0.00 (0.00 to 0.00)</td></tr></tbody></table>
+<h2 id="splits">Dev and held-out tasks</h2>
+<table><thead><tr><th>Agent</th><th>Dev pass^1</th><th>Dev pass^4</th><th>Held-out pass^1</th><th>Held-out pass^4</th></tr></thead><tbody><tr><td>Oracle (scripted, follows policy)</td><td>100.0% (100.0 to 100.0)</td><td>100.0% (100.0 to 100.0)</td><td>100.0% (100.0 to 100.0)</td><td>100.0% (100.0 to 100.0)</td></tr><tr><td>Broken: skips the identity check</td><td>0.0% (0.0 to 0.0)</td><td>0.0% (0.0 to 0.0)</td><td>40.0% (13.3 to 66.7)</td><td>40.0% (13.3 to 66.7)</td></tr><tr><td>Broken: ignores time windows</td><td>80.0% (63.3 to 93.3)</td><td>80.0% (63.3 to 93.3)</td><td>93.3% (80.0 to 100.0)</td><td>93.3% (80.0 to 100.0)</td></tr><tr><td>Flaky: skips the yes on 1 in 4 changes (synthetic)</td><td>86.7% (82.5 to 90.8)</td><td>46.7% (30.0 to 63.3)</td><td>93.3% (86.7 to 98.3)</td><td>73.3% (46.7 to 93.3)</td></tr></tbody></table>
+<h2 id="domains">By domain</h2>
+<table><thead><tr><th>Agent</th><th>Bike parts pass^1</th><th>Bike parts pass^4</th><th>Salon pass^1</th><th>Salon pass^4</th><th>Meal kit pass^1</th><th>Meal kit pass^4</th></tr></thead><tbody><tr><td>Oracle (scripted, follows policy)</td><td>100.0% (100.0 to 100.0)</td><td>100.0% (100.0 to 100.0)</td><td>100.0% (100.0 to 100.0)</td><td>100.0% (100.0 to 100.0)</td><td>100.0% (100.0 to 100.0)</td><td>100.0% (100.0 to 100.0)</td></tr><tr><td>Broken: skips the identity check</td><td>13.3% (0.0 to 33.3)</td><td>13.3% (0.0 to 33.3)</td><td>13.3% (0.0 to 33.3)</td><td>13.3% (0.0 to 33.3)</td><td>13.3% (0.0 to 33.3)</td><td>13.3% (0.0 to 33.3)</td></tr><tr><td>Broken: ignores time windows</td><td>86.7% (66.7 to 100.0)</td><td>86.7% (66.7 to 100.0)</td><td>80.0% (60.0 to 100.0)</td><td>80.0% (60.0 to 100.0)</td><td>86.7% (66.7 to 100.0)</td><td>86.7% (66.7 to 100.0)</td></tr><tr><td>Flaky: skips the yes on 1 in 4 changes (synthetic)</td><td>90.0% (83.3 to 96.7)</td><td>60.0% (33.3 to 86.7)</td><td>88.3% (81.7 to 95.0)</td><td>53.3% (26.7 to 80.0)</td><td>88.3% (81.7 to 95.0)</td><td>53.3% (26.7 to 80.0)</td></tr></tbody></table>
+<h2 id="cost">Cost</h2>
+<table><thead><tr><th>Agent</th><th>Tokens per task</th><th>Turns per task</th><th>Wall time for the run</th></tr></thead><tbody><tr><td>Oracle (scripted, follows policy)</td><td>0 (0 to 0)</td><td>9.2 (8.3 to 9.9)</td><td>0.21 s</td></tr><tr><td>Broken: skips the identity check</td><td>0 (0 to 0)</td><td>7.5 (6.8 to 8.2)</td><td>0.23 s</td></tr><tr><td>Broken: ignores time windows</td><td>0 (0 to 0)</td><td>9.5 (8.6 to 10.4)</td><td>0.22 s</td></tr><tr><td>Flaky: skips the yes on 1 in 4 changes (synthetic)</td><td>0 (0 to 0)</td><td>9.0 (8.1 to 9.7)</td><td>0.19 s</td></tr></tbody></table>
+<h2 id="record">Record mode</h2>
+<p class="meta">Record mode did not run. Checked on 2026-11-23 for model `llama-3.1-8b-instant`: no GROQ_API_KEY in the environment, so no request was sent. A probe of the provider hosts on that day gave: groq refused by the network proxy (403), openrouter refused by the network proxy (403). So no row on this page comes from a language model, and Done-means item 4 is open. The LLM agent in `src/deskbench/agents/llm.py` passes all 45 tasks against a fake local server in `tests/test_llm_agent.py`, so the loop, the tool calls, the JSON fallback, record and replay all run. `docs/HUMAN_STEPS.md` has the command to run once a free key exists.</p>
+<p><a href="REPORT.md">Full report with failures</a> · <a href="../README.md">README</a></p>
+</body>
+</html>

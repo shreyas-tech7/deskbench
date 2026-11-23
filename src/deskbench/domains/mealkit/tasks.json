@@ -1,0 +1,148 @@
+[
+  {
+    "id": "mk01", "split": "dev", "intent": "credit", "tags": ["identity", "write"],
+    "goal": "Pia gets a one-meal credit for last week's box, which she reported had no ice packs.",
+    "opening": ["My last box had a problem and I'd like a credit.", "Hi, some meals in my box arrived warm. Can I get a credit?", "Hello, I had a problem with a delivery."],
+    "nudge": "Can I get a credit for it?",
+    "facts": {"email": "pia.l@mail.test", "zip": "94110", "delivery_date": "2026-06-11"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "credits", "where": {"subscriber_id": 1, "delivery_id": 201}, "fields": {"amount_cents": 2000}}
+    ]}
+  },
+  {
+    "id": "mk02", "split": "dev", "intent": "credit", "tags": ["identity", "refusal", "window"],
+    "goal": "Quinn wants a credit for a box from 18 days ago. Credits end after 14 days.",
+    "opening": ["I'd like a credit for a crushed box.", "Hi, a box I got a while ago was damaged. Can I get a credit?", "Hello, I want a credit for a problem with an old delivery."],
+    "nudge": "Can you add the credit?",
+    "facts": {"email": "quinn.r@mail.test", "zip": "80205", "delivery_date": "2026-05-28"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "credits", "where": {"subscriber_id": 2}, "count": 0}
+    ]}
+  },
+  {
+    "id": "mk03", "split": "dev", "intent": "credit", "tags": ["identity", "refusal"],
+    "goal": "Sol asks for a second credit for a box that already got one.",
+    "opening": ["I want a credit for the meal that was missing from my box.", "Hi, can I get a credit for a missing meal?", "Hello, I had a problem with my last box."],
+    "nudge": "Can I get the credit?",
+    "facts": {"email": "sol.kim@mail.test", "zip": "85004", "delivery_date": "2026-06-11"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "credits", "where": {"delivery_id": 231}, "count": 1}
+    ]}
+  },
+  {
+    "id": "mk04", "split": "dev", "intent": "credit", "tags": ["identity", "write"],
+    "goal": "Tess gets a one-meal credit for spoiled salmon in a box from 11 days ago.",
+    "opening": ["The salmon in one of my boxes was spoiled. Can I get a credit?", "Hi, I'd like a credit for a bad meal.", "Hello, there was a problem with a box I got."],
+    "nudge": "Can you credit me?",
+    "facts": {"email": "tess.g@mail.test", "zip": "37203", "delivery_date": "2026-06-04"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "credits", "where": {"subscriber_id": 5, "delivery_id": 241}, "fields": {"amount_cents": 2000}}
+    ]}
+  },
+  {
+    "id": "mk05", "split": "dev", "intent": "skip", "tags": ["identity", "write"],
+    "goal": "Pia skips the box ten days away.",
+    "opening": ["I want to skip a box.", "Hi, can I skip a delivery? I'm traveling.", "Hello, please skip one of my upcoming boxes."],
+    "nudge": "Can you skip it?",
+    "facts": {"email": "pia.l@mail.test", "zip": "94110", "delivery_date": "2026-06-25"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "deliveries", "where": {"id": 203}, "fields": {"status": "skipped"}}
+    ]}
+  },
+  {
+    "id": "mk06", "split": "dev", "intent": "skip", "tags": ["identity", "refusal", "window"],
+    "goal": "Quinn wants to skip this week's box, three days away. It is already packed.",
+    "opening": ["I need to skip this week's box.", "Hi, can I skip my next delivery?", "Hello, please skip Thursday's box."],
+    "nudge": "Please skip it.",
+    "facts": {"email": "quinn.r@mail.test", "zip": "80205", "delivery_date": "2026-06-18"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "deliveries", "where": {"id": 212}, "fields": {"status": "scheduled"}}
+    ]}
+  },
+  {
+    "id": "mk07", "split": "dev", "intent": "pause", "tags": ["identity", "write"],
+    "goal": "Uma pauses for four weeks.",
+    "opening": ["I'd like to pause my subscription.", "Hi, can I pause my deliveries for a while?", "Hello, I want to pause for a few weeks."],
+    "nudge": "Can you pause it?",
+    "facts": {"email": "uma.s@mail.test", "zip": "43215", "weeks": "4 weeks"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "subscribers", "where": {"id": 6}, "fields": {"status": "paused", "paused_until": "2026-07-13"}}
+    ]}
+  },
+  {
+    "id": "mk08", "split": "dev", "intent": "pause", "tags": ["identity", "refusal"],
+    "goal": "Sol wants to pause for ten weeks. The limit is eight.",
+    "opening": ["I want to pause my subscription for the summer.", "Hi, can I pause my boxes for a long time?", "Hello, please pause my plan."],
+    "nudge": "Can you pause it?",
+    "facts": {"email": "sol.kim@mail.test", "zip": "85004", "weeks": "10 weeks"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "subscribers", "where": {"id": 4}, "fields": {"status": "active", "paused_until": null}}
+    ]}
+  },
+  {
+    "id": "mk09", "split": "dev", "intent": "plan", "tags": ["identity", "refusal"],
+    "goal": "Rhea's subscription is paused and she wants to switch plans. Paused accounts cannot change plan by chat.",
+    "opening": ["I'd like to switch to a smaller plan.", "Hi, can I change my plan?", "Hello, I want to switch plans."],
+    "nudge": "Can you switch it?",
+    "facts": {"email": "rhea.n@mail.test", "zip": "19104", "plan": "Duo 3 meals"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "subscribers", "where": {"id": 3}, "fields": {"plan_code": "DUO4", "status": "paused"}}
+    ]}
+  },
+  {
+    "id": "mk10", "split": "dev", "intent": "plan", "tags": ["identity", "write"],
+    "goal": "Tess switches from Duo 3 to Family 3.",
+    "opening": ["I want to switch to a family plan.", "Hi, can I change my plan? We need more servings.", "Hello, I'd like to switch plans."],
+    "nudge": "Can you switch my plan?",
+    "facts": {"email": "tess.g@mail.test", "zip": "37203", "plan": "Family 3 meals"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "subscribers", "where": {"id": 5}, "fields": {"plan_code": "FAM3"}}
+    ]}
+  },
+  {
+    "id": "mk11", "split": "heldout", "intent": "cancel", "tags": ["transfer"],
+    "goal": "Uma wants to cancel. Cancellations go to the retention team.",
+    "opening": ["I want to cancel my subscription.", "Hi, please cancel my account.", "Hello, how do I cancel Forkful?"],
+    "nudge": "Can you cancel it?",
+    "facts": {"email": "uma.s@mail.test", "zip": "43215"},
+    "expected": {"outcome": "transferred", "db": []}
+  },
+  {
+    "id": "mk12", "split": "heldout", "intent": "question", "tags": [],
+    "goal": "Someone asks what one meal costs on a plan. No account needed.",
+    "opening": ["How much does one of your plans cost per meal?", "Hi, what's the price of a plan?", "Hello, how much do your plans cost?"],
+    "nudge": "What's the price?",
+    "facts": {"plan": "Family 4 meals"},
+    "expected": {"outcome": "resolved", "db": []}
+  },
+  {
+    "id": "mk13", "split": "heldout", "intent": "plan", "tags": ["identity", "write"],
+    "goal": "Pia switches from Duo 3 to Duo 4.",
+    "opening": ["I'd like to switch to a plan with more meals.", "Hi, can I change my plan?", "Hello, I want to switch plans."],
+    "nudge": "Can you make the switch?",
+    "facts": {"email": "pia.l@mail.test", "zip": "94110", "plan": "Duo 4 meals"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "subscribers", "where": {"id": 1}, "fields": {"plan_code": "DUO4"}}
+    ]}
+  },
+  {
+    "id": "mk14", "split": "heldout", "intent": "skip", "tags": ["identity", "write"],
+    "goal": "Quinn skips the box ten days away.",
+    "opening": ["I want to skip a box later this month.", "Hi, can I skip a delivery?", "Hello, please skip a box for me."],
+    "nudge": "Can you skip it?",
+    "facts": {"email": "quinn.r@mail.test", "zip": "80205", "delivery_date": "2026-06-25"},
+    "expected": {"outcome": "resolved", "db": [
+      {"table": "deliveries", "where": {"id": 213}, "fields": {"status": "skipped"}}
+    ]}
+  },
+  {
+    "id": "mk15", "split": "heldout", "intent": "credit", "tags": ["identity", "refusal"],
+    "goal": "Uma asks for a credit for a box with no reported issue.",
+    "opening": ["I'd like a credit for my last box.", "Hi, can I get a credit? I didn't love the meals.", "Hello, I want a credit for a delivery."],
+    "nudge": "Can you add a credit?",
+    "facts": {"email": "uma.s@mail.test", "zip": "43215", "delivery_date": "2026-06-11"},
+    "expected": {"outcome": "refused", "db": [
+      {"table": "credits", "where": {"subscriber_id": 6}, "count": 0}
+    ]}
+  }
+]

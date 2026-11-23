@@ -1,0 +1,22 @@
+# Decisions
+
+- 2026-11-21 Name: `deskbench`. PyPI and npm both answer 404 for `deskbench` and `supportbench` (checked 2026-11-21). The repo name matches, so no rename.
+- 2026-11-21 Branch: the system allows pushes only to `claude/project-thread-6e5u85`, so I build there instead of `claude/build-deskbench` (session brief rule 11).
+- 2026-11-21 Plan: wrote `docs/PLAN.md` in the writing-plans layout by hand, with no question rounds, to save tokens. The brief is the spec.
+- 2026-11-21 Ticket outcome lives in the database. Options: detect refusals in chat text, or make the agent close a ticket. I picked a `ticket` table that `close_ticket` and `transfer_to_human` write, so the database state decides even the chat outcome and no text is judged.
+- 2026-11-21 Tools are permissive. They reject bad data (unknown id, too many units) but not policy breaks. The dispatcher checks policy before each call and logs violations. Options: tools that refuse policy breaks. That would hide agent mistakes, the way tau-bench keeps policy in the prompt.
+- 2026-11-21 A trial passes only if the outcome matches, every named field matches, no other row changed and no policy rule fired. The "no other row changed" check catches extra writes that a field match alone would miss.
+- 2026-11-21 Identity is two steps: `find_*` looks up an id, `verify_*` checks a second fact. Options: one verify tool. Two steps let a broken agent skip the check and still act, which the brief's broken-agent test needs.
+- 2026-11-21 The oracle reads the customer's words and calls tools. It never reads `expected`. Options: replay an annotated action list. A scripted agent that applies the policy finds wrong or impossible tasks, a replay would not.
+- 2026-11-21 Confirmation rule: a write passes only if the customer's message right before it starts with a yes. The scripted user says yes only when asked to confirm.
+- 2026-11-21 Fixed "now" per domain (2026-06-15 10:00) so every window rule gives the same answer on every day.
+- 2026-11-23 Result seeds: the result runs use seeds 101 to 104 (and 202 to 205 for the oracle rerun). The tests and checks used seeds 1 to 8 while building. `tests/test_repo.py` fails if a result file uses a build seed.
+- 2026-11-23 The flaky agent is the oracle with `skip_confirm=0.25`. Options: no flaky row, or a fake model. With no model run possible, a labeled synthetic agent is the honest way to show pass^k falling as k grows. Every table marks it synthetic.
+- 2026-11-23 Violations are reported per 100 trials. One trial can break more than one rule, so the number can pass 100.
+- 2026-11-23 Results files keep one failed transcript per task, not every failed trial. The broken agents fail up to 156 trials each, and one transcript shows the failure.
+- 2026-11-23 Intervals: percentile bootstrap over tasks, 2,000 resamples, seed 0. Options: Wilson intervals per trial. Trials of one task are not independent, so resampling tasks is the honest unit.
+- 2026-11-23 Record mode resumes from fixtures. `RecordClient` reuses a saved response for the same request hash, so a run stopped by a rate limit costs nothing to restart. `ReplayClient` never goes live.
+- 2026-11-23 Review fix: the dispatcher now counts any bad argument (a huge number, a SQLite error) as a wrong call, and runs the rules inside the same guard. Before, a model's made-up 20-digit order number crashed the run.
+- 2026-11-23 Review fix: when a spec with `fields` covers an existing row, any other changed column of that row now fails the trial. Before, an agent could switch a plan and also pause the same subscriber and still pass. The rerun results did not change, because no scripted agent made such a change.
+- 2026-11-23 Policy rule tests cover every rule in all three domains in `tests/test_policy.py`, plus extra breaking cases for each branch of the meal-kit credit rule.
+- 2026-11-23 Outside-check fix: a `count` spec only checks how many rows exist. It no longer lets an existing row change. Options: add `fields` to every counted task. One rule in the scorer fixes sl08, sl09 and mk03 at once and any future task. Scores did not change.

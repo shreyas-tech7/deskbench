@@ -1,0 +1,3874 @@
+{
+ "meta": {
+  "agent": "flaky",
+  "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+  "date": "2026-11-23",
+  "model": "none (scripted agent)",
+  "python": "3.11.18",
+  "seconds": 0.19,
+  "seed": 101,
+  "synthetic": true,
+  "trials": 4,
+  "version": "0.1.0rc1"
+ },
+ "summary": {
+  "all": {
+   "pass": {
+    "1": [
+     0.8888888888888888,
+     0.8555555555555555,
+     0.9222222222222223
+    ],
+    "2": [
+     0.7777777777777778,
+     0.7111111111111111,
+     0.8444444444444444
+    ],
+    "3": [
+     0.6666666666666666,
+     0.5666666666666667,
+     0.7666666666666667
+    ],
+    "4": [
+     0.5555555555555556,
+     0.4222222222222222,
+     0.6888888888888889
+    ]
+   },
+   "tasks": 45,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    8.955555555555556,
+    8.1,
+    9.688888888888888
+   ],
+   "violations": [
+    11.11111111111111,
+    7.777777777777778,
+    14.444444444444445
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "bikeparts": {
+   "pass": {
+    "1": [
+     0.9,
+     0.8333333333333334,
+     0.9666666666666667
+    ],
+    "2": [
+     0.8,
+     0.6666666666666666,
+     0.9333333333333333
+    ],
+    "3": [
+     0.7,
+     0.5,
+     0.9
+    ],
+    "4": [
+     0.6,
+     0.3333333333333333,
+     0.8666666666666667
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    9.333333333333334,
+    7.733333333333333,
+    10.6
+   ],
+   "violations": [
+    10.0,
+    3.3333333333333335,
+    16.666666666666668
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "dev": {
+   "pass": {
+    "1": [
+     0.8666666666666667,
+     0.825,
+     0.9083333333333333
+    ],
+    "2": [
+     0.7333333333333333,
+     0.65,
+     0.8166666666666667
+    ],
+    "3": [
+     0.6,
+     0.475,
+     0.725
+    ],
+    "4": [
+     0.4666666666666667,
+     0.3,
+     0.6333333333333333
+    ]
+   },
+   "tasks": 30,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    9.866666666666667,
+    9.316666666666666,
+    10.416666666666666
+   ],
+   "violations": [
+    13.333333333333334,
+    9.166666666666666,
+    17.5
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "heldout": {
+   "pass": {
+    "1": [
+     0.9333333333333333,
+     0.8666666666666667,
+     0.9833333333333333
+    ],
+    "2": [
+     0.8666666666666667,
+     0.7333333333333333,
+     0.9666666666666667
+    ],
+    "3": [
+     0.8,
+     0.6,
+     0.95
+    ],
+    "4": [
+     0.7333333333333333,
+     0.4666666666666667,
+     0.9333333333333333
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    7.133333333333334,
+    5.2,
+    8.933333333333334
+   ],
+   "violations": [
+    6.666666666666667,
+    1.6666666666666667,
+    13.333333333333334
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "mealkit": {
+   "pass": {
+    "1": [
+     0.8833333333333333,
+     0.8166666666666667,
+     0.95
+    ],
+    "2": [
+     0.7666666666666667,
+     0.6333333333333333,
+     0.9
+    ],
+    "3": [
+     0.65,
+     0.45,
+     0.85
+    ],
+    "4": [
+     0.5333333333333333,
+     0.26666666666666666,
+     0.8
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    8.766666666666667,
+    7.366666666666666,
+    9.8
+   ],
+   "violations": [
+    11.666666666666666,
+    5.0,
+    18.333333333333332
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "salon": {
+   "pass": {
+    "1": [
+     0.8833333333333333,
+     0.8166666666666667,
+     0.95
+    ],
+    "2": [
+     0.7666666666666667,
+     0.6333333333333333,
+     0.9
+    ],
+    "3": [
+     0.65,
+     0.45,
+     0.85
+    ],
+    "4": [
+     0.5333333333333333,
+     0.26666666666666666,
+     0.8
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    8.766666666666667,
+    7.2,
+    10.033333333333333
+   ],
+   "violations": [
+    11.666666666666666,
+    5.0,
+    18.333333333333332
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "trials": [
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: return_item ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/flaky/bk01-seed103.json",
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "return_item ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: return_item ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/flaky/bk02-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "return_item ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: cancel_order ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/flaky/bk03-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "cancel_order ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "cancel_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: return_item ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/flaky/bk08-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "return_item ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: exchange_item ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/flaky/bk09-seed103.json",
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "exchange_item ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "exchange_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: return_item ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/flaky/bk13-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "return_item ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: cancel_booking ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/flaky/sl01-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "cancel_booking ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: cancel_booking ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/flaky/sl02-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "cancel_booking ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: cancel_booking ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/flaky/sl03-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "cancel_booking ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: reschedule_booking ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 7,
+   "transcript_file": "results/transcripts/flaky/sl04-seed103.json",
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "reschedule_booking ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: book_appointment ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 7,
+   "transcript_file": "results/transcripts/flaky/sl07-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "book_appointment ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "book_appointment"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: book_appointment ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 7,
+   "transcript_file": "results/transcripts/flaky/sl10-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "book_appointment ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "book_appointment"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: cancel_booking ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/flaky/sl13-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "cancel_booking ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: add_credit ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/flaky/mk01-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "add_credit ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: add_credit ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/flaky/mk04-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "add_credit ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: skip_delivery ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/flaky/mk05-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "skip_delivery ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: pause_subscription ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/flaky/mk07-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "pause_subscription ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "pause_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: change_plan ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/flaky/mk10-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "change_plan ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "change_plan"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: change_plan ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/flaky/mk13-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "change_plan ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "change_plan"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy CONFIRM: skip_delivery ran without an explicit yes from the customer"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/flaky/mk14-seed103.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "skip_delivery ran without an explicit yes from the customer",
+     "rule": "CONFIRM",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "flaky",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  }
+ ]
+}
