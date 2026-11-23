@@ -45,8 +45,9 @@ def check_db(before: dict, after: dict, specs: list[dict]) -> list[str]:
             cover = [s for s in specs if s["table"] == table and _matches(rec, s["where"])]
             if not cover:
                 problems.append(f"unexpected change in {table}: {rec}")
-            elif rid in old and rid in new and all("fields" in s for s in cover):
-                named = {k for s in cover for k in (*s["where"], *s["fields"])}
+            elif rid in old and rid in new:
+                # a count spec checks how many rows exist, so it allows no edit to an existing row
+                named = {k for s in cover if "fields" in s for k in (*s["where"], *s["fields"])}
                 extra = sorted(k for k in new[rid] if new[rid][k] != old[rid].get(k) and k not in named)
                 if extra:
                     problems.append(f"unexpected change in {table} {cover[0]['where']}: {', '.join(extra)}")

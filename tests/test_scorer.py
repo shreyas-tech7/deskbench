@@ -91,3 +91,17 @@ def test_extra_column_change_on_a_named_row_fails():
     db.execute("UPDATE ticket SET status = 'resolved'")
     res = score(d.task("mk10"), before, db, [])
     assert not res["passed"] and any("status" in p for p in res["problems"])
+
+
+def test_edit_to_a_row_named_only_by_count_fails():
+    """Found in the outside check: on sl08, moving Iris's booking passed, because a count spec covered it."""
+    from deskbench.domains import DOMAINS
+    from deskbench.scorer import score, snapshot
+
+    d = DOMAINS["salon"]
+    db = d.fresh_db()
+    before = snapshot(db)
+    db.execute("UPDATE bookings SET start = '2026-06-19 09:00', reschedules = 1 WHERE id = 101")
+    db.execute("UPDATE ticket SET status = 'refused'")
+    res = score(d.task("sl08"), before, db, [])
+    assert not res["passed"] and any("reschedules" in p for p in res["problems"])
