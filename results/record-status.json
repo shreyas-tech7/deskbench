@@ -1,0 +1,11 @@
+{
+ "date": "2026-11-23",
+ "model": "llama-3.1-8b-instant",
+ "probe": {
+  "groq": "refused by the network proxy (403)",
+  "openrouter": "refused by the network proxy (403)"
+ },
+ "provider": "groq",
+ "reason": "no GROQ_API_KEY in the environment, so no request was sent.",
+ "status": "blocked"
+}

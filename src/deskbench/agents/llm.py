@@ -66,7 +66,7 @@ class HttpClient:
 
 
 class RecordClient:
-    """Calls the inner client and saves each response as fixtures/<model>/<hash>.json."""
+    """Saves each response as fixtures/<model>/<hash>.json, and reuses a saved one, so a stopped run resumes."""
 
     def __init__(self, inner, folder: Path):
         self.inner, self.model = inner, inner.model
@@ -74,8 +74,11 @@ class RecordClient:
         self.folder.mkdir(parents=True, exist_ok=True)
 
     def complete(self, body: dict) -> dict:
+        path = self.folder / f"{request_key(body)}.json"
+        if path.exists():
+            return json.loads(path.read_text())
         out = self.inner.complete(body)
-        (self.folder / f"{request_key(body)}.json").write_text(json.dumps(out, indent=1, sort_keys=True))
+        path.write_text(json.dumps(out, indent=1, sort_keys=True))
         return out
 
 

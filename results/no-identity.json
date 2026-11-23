@@ -1,0 +1,5533 @@
+{
+ "meta": {
+  "agent": "no-identity",
+  "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+  "date": "2026-11-23",
+  "model": "none (scripted agent)",
+  "python": "3.11.18",
+  "seconds": 0.22,
+  "seed": 101,
+  "synthetic": false,
+  "trials": 4,
+  "version": "0.1.0rc1"
+ },
+ "summary": {
+  "all": {
+   "pass": {
+    "1": [
+     0.13333333333333333,
+     0.044444444444444446,
+     0.24444444444444444
+    ],
+    "2": [
+     0.13333333333333333,
+     0.044444444444444446,
+     0.24444444444444444
+    ],
+    "3": [
+     0.13333333333333333,
+     0.044444444444444446,
+     0.24444444444444444
+    ],
+    "4": [
+     0.13333333333333333,
+     0.044444444444444446,
+     0.24444444444444444
+    ]
+   },
+   "tasks": 45,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    7.533333333333333,
+    6.822222222222222,
+    8.2
+   ],
+   "violations": [
+    135.55555555555554,
+    113.33333333333333,
+    155.55555555555554
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "bikeparts": {
+   "pass": {
+    "1": [
+     0.13333333333333333,
+     0.0,
+     0.3333333333333333
+    ],
+    "2": [
+     0.13333333333333333,
+     0.0,
+     0.3333333333333333
+    ],
+    "3": [
+     0.13333333333333333,
+     0.0,
+     0.3333333333333333
+    ],
+    "4": [
+     0.13333333333333333,
+     0.0,
+     0.3333333333333333
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    7.933333333333334,
+    6.6,
+    9.0
+   ],
+   "violations": [
+    133.33333333333334,
+    93.33333333333333,
+    166.66666666666666
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "dev": {
+   "pass": {
+    "1": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "2": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "3": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "4": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "tasks": 30,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    8.133333333333333,
+    7.533333333333333,
+    8.733333333333333
+   ],
+   "violations": [
+    153.33333333333334,
+    136.66666666666666,
+    170.0
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "heldout": {
+   "pass": {
+    "1": [
+     0.4,
+     0.13333333333333333,
+     0.6666666666666666
+    ],
+    "2": [
+     0.4,
+     0.13333333333333333,
+     0.6666666666666666
+    ],
+    "3": [
+     0.4,
+     0.13333333333333333,
+     0.6666666666666666
+    ],
+    "4": [
+     0.4,
+     0.13333333333333333,
+     0.6666666666666666
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    6.333333333333333,
+    4.733333333333333,
+    7.8
+   ],
+   "violations": [
+    100.0,
+    60.0,
+    146.66666666666666
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "mealkit": {
+   "pass": {
+    "1": [
+     0.13333333333333333,
+     0.0,
+     0.3333333333333333
+    ],
+    "2": [
+     0.13333333333333333,
+     0.0,
+     0.3333333333333333
+    ],
+    "3": [
+     0.13333333333333333,
+     0.0,
+     0.3333333333333333
+    ],
+    "4": [
+     0.13333333333333333,
+     0.0,
+     0.3333333333333333
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    7.266666666666667,
+    6.066666666666666,
+    8.2
+   ],
+   "violations": [
+    133.33333333333334,
+    100.0,
+    166.66666666666666
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "salon": {
+   "pass": {
+    "1": [
+     0.13333333333333333,
+     0.0,
+     0.3333333333333333
+    ],
+    "2": [
+     0.13333333333333333,
+     0.0,
+     0.3333333333333333
+    ],
+    "3": [
+     0.13333333333333333,
+     0.0,
+     0.3333333333333333
+    ],
+    "4": [
+     0.13333333333333333,
+     0.0,
+     0.3333333333333333
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    7.4,
+    5.933333333333334,
+    8.6
+   ],
+   "violations": [
+    140.0,
+    100.0,
+    173.33333333333334
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "trials": [
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 1 before the identity check",
+    "policy IDENTITY: return_item touched account 1 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/bk01-seed101.json",
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "get_order touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 1 before the identity check",
+    "policy IDENTITY: return_item touched account 1 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "get_order touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 1 before the identity check",
+    "policy IDENTITY: return_item touched account 1 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "get_order touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 1 before the identity check",
+    "policy IDENTITY: return_item touched account 1 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "get_order touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 1 before the identity check",
+    "policy IDENTITY: return_item touched account 1 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/bk02-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 1 before the identity check",
+    "policy IDENTITY: return_item touched account 1 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 1 before the identity check",
+    "policy IDENTITY: return_item touched account 1 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 1 before the identity check",
+    "policy IDENTITY: return_item touched account 1 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 2 before the identity check",
+    "policy IDENTITY: cancel_order touched account 2 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/bk03-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "cancel_order touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 2 before the identity check",
+    "policy IDENTITY: cancel_order touched account 2 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "cancel_order touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 2 before the identity check",
+    "policy IDENTITY: cancel_order touched account 2 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "cancel_order touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 2 before the identity check",
+    "policy IDENTITY: cancel_order touched account 2 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "cancel_order touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 4 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 3,
+   "transcript_file": "results/transcripts/no-identity/bk04-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 4 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 3,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 4 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 3,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 4 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 3,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 3 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 3,
+   "transcript_file": "results/transcripts/no-identity/bk05-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 3 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 3,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 3 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 3,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 3 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 3,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 6 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 3,
+   "transcript_file": "results/transcripts/no-identity/bk06-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 6 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 3,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 6 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 3,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 6 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 3,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 5 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 3,
+   "transcript_file": "results/transcripts/no-identity/bk07-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 5 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 3,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 5 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 3,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 5 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 3,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_order touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 5 before the identity check",
+    "policy IDENTITY: return_item touched account 5 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/bk08-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 5 before the identity check",
+    "policy IDENTITY: return_item touched account 5 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 5 before the identity check",
+    "policy IDENTITY: return_item touched account 5 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 5 before the identity check",
+    "policy IDENTITY: return_item touched account 5 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 7 before the identity check",
+    "policy IDENTITY: exchange_item touched account 7 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/bk09-seed101.json",
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "get_order touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "exchange_item touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "exchange_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 7 before the identity check",
+    "policy IDENTITY: exchange_item touched account 7 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "get_order touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "exchange_item touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "exchange_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 7 before the identity check",
+    "policy IDENTITY: exchange_item touched account 7 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "get_order touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "exchange_item touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "exchange_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 7 before the identity check",
+    "policy IDENTITY: exchange_item touched account 7 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "get_order touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "exchange_item touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "exchange_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 3 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/bk10-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 3 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 3 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 3 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 8 before the identity check"
+   ],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/bk11-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 8 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 8 before the identity check"
+   ],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 8 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 8 before the identity check"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 8 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_order touched account 8 before the identity check"
+   ],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 8 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_orders touched account 8 before the identity check",
+    "policy IDENTITY: return_item touched account 8 before the identity check"
+   ],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/bk13-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_orders touched account 8 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_orders"
+    },
+    {
+     "detail": "return_item touched account 8 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_orders touched account 8 before the identity check",
+    "policy IDENTITY: return_item touched account 8 before the identity check"
+   ],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_orders touched account 8 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_orders"
+    },
+    {
+     "detail": "return_item touched account 8 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_orders touched account 8 before the identity check",
+    "policy IDENTITY: return_item touched account 8 before the identity check"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_orders touched account 8 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_orders"
+    },
+    {
+     "detail": "return_item touched account 8 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_orders touched account 8 before the identity check",
+    "policy IDENTITY: return_item touched account 8 before the identity check"
+   ],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_orders touched account 8 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_orders"
+    },
+    {
+     "detail": "return_item touched account 8 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "returns {'order_id': 1007}: expected 0 rows, found 1",
+    "unexpected change in order_items: {'order_id': 1007, 'sku': 'TR-28', 'qty': 1, 'price_cents': 4999, 'returned_qty': 1, 'exchanged_qty': 0}",
+    "policy IDENTITY: get_order touched account 7 before the identity check",
+    "policy IDENTITY: return_item touched account 7 before the identity check"
+   ],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/bk15-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "returns {'order_id': 1007}: expected 0 rows, found 1",
+    "unexpected change in order_items: {'order_id': 1007, 'sku': 'TR-28', 'qty': 1, 'price_cents': 4999, 'returned_qty': 1, 'exchanged_qty': 0}",
+    "policy IDENTITY: get_order touched account 7 before the identity check",
+    "policy IDENTITY: return_item touched account 7 before the identity check"
+   ],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "returns {'order_id': 1007}: expected 0 rows, found 1",
+    "unexpected change in order_items: {'order_id': 1007, 'sku': 'TR-28', 'qty': 1, 'price_cents': 4999, 'returned_qty': 1, 'exchanged_qty': 0}",
+    "policy IDENTITY: get_order touched account 7 before the identity check",
+    "policy IDENTITY: return_item touched account 7 before the identity check"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "returns {'order_id': 1007}: expected 0 rows, found 1",
+    "unexpected change in order_items: {'order_id': 1007, 'sku': 'TR-28', 'qty': 1, 'price_cents': 4999, 'returned_qty': 1, 'exchanged_qty': 0}",
+    "policy IDENTITY: get_order touched account 7 before the identity check",
+    "policy IDENTITY: return_item touched account 7 before the identity check"
+   ],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_order touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_order"
+    },
+    {
+     "detail": "return_item touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "return_item"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 1 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 1 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/sl01-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 1 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 1 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 1 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 1 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 1 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 1 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 3 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 3 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/sl02-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 3 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 3 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 3 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 3 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 3 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 3 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 2 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 2 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/sl03-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 2 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 2 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 2 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 2 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 2 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 2 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 5 before the identity check",
+    "policy IDENTITY: reschedule_booking touched account 5 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/no-identity/sl04-seed101.json",
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "reschedule_booking touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 5 before the identity check",
+    "policy IDENTITY: reschedule_booking touched account 5 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "reschedule_booking touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 5 before the identity check",
+    "policy IDENTITY: reschedule_booking touched account 5 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "reschedule_booking touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 5 before the identity check",
+    "policy IDENTITY: reschedule_booking touched account 5 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "reschedule_booking touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "reschedule_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 4 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/sl05-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 4 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 4 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 4 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 3 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/sl06-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 3 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 3 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 3 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 7 before the identity check",
+    "policy IDENTITY: book_appointment touched account 7 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/no-identity/sl07-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "book_appointment touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "book_appointment"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 7 before the identity check",
+    "policy IDENTITY: book_appointment touched account 7 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "book_appointment touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "book_appointment"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 7 before the identity check",
+    "policy IDENTITY: book_appointment touched account 7 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "book_appointment touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "book_appointment"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 7 before the identity check",
+    "policy IDENTITY: book_appointment touched account 7 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "book_appointment touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "book_appointment"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 1 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/sl08-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 1 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 1 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 1 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 6 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/sl09-seed101.json",
+   "turns": 3,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 6 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 3,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 6 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 3,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 6 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 3,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 5 before the identity check",
+    "policy IDENTITY: book_appointment touched account 5 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "transcript_file": "results/transcripts/no-identity/sl10-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "book_appointment touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "book_appointment"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 5 before the identity check",
+    "policy IDENTITY: book_appointment touched account 5 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "book_appointment touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "book_appointment"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 5 before the identity check",
+    "policy IDENTITY: book_appointment touched account 5 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "book_appointment touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "book_appointment"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 5 before the identity check",
+    "policy IDENTITY: book_appointment touched account 5 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "book_appointment touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "book_appointment"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 2 before the identity check"
+   ],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/sl12-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 2 before the identity check"
+   ],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 2 before the identity check"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 2 before the identity check"
+   ],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 7 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 7 before the identity check"
+   ],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/sl13-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 7 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 7 before the identity check"
+   ],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 7 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 7 before the identity check"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: list_bookings touched account 7 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 7 before the identity check"
+   ],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 7 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "bookings {'id': 104}: status is 'cancelled', expected 'booked'",
+    "bookings {'id': 104}: deposit_status is 'refunded', expected 'held'",
+    "policy IDENTITY: list_bookings touched account 4 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 4 before the identity check"
+   ],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/sl15-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "bookings {'id': 104}: status is 'cancelled', expected 'booked'",
+    "bookings {'id': 104}: deposit_status is 'refunded', expected 'held'",
+    "policy IDENTITY: list_bookings touched account 4 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 4 before the identity check"
+   ],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "bookings {'id': 104}: status is 'cancelled', expected 'booked'",
+    "bookings {'id': 104}: deposit_status is 'refunded', expected 'held'",
+    "policy IDENTITY: list_bookings touched account 4 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 4 before the identity check"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "outcome is resolved, expected refused",
+    "bookings {'id': 104}: status is 'cancelled', expected 'booked'",
+    "bookings {'id': 104}: deposit_status is 'refunded', expected 'held'",
+    "policy IDENTITY: list_bookings touched account 4 before the identity check",
+    "policy IDENTITY: cancel_booking touched account 4 before the identity check"
+   ],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "list_bookings touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "list_bookings"
+    },
+    {
+     "detail": "cancel_booking touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "cancel_booking"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 1 before the identity check",
+    "policy IDENTITY: add_credit touched account 1 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/mk01-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "add_credit touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 1 before the identity check",
+    "policy IDENTITY: add_credit touched account 1 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "add_credit touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 1 before the identity check",
+    "policy IDENTITY: add_credit touched account 1 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "add_credit touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 1 before the identity check",
+    "policy IDENTITY: add_credit touched account 1 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "add_credit touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 2 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/mk02-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 2 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 2 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 2 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 4 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/mk03-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 4 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 4 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 4 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 5 before the identity check",
+    "policy IDENTITY: add_credit touched account 5 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/mk04-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "add_credit touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 5 before the identity check",
+    "policy IDENTITY: add_credit touched account 5 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "add_credit touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 5 before the identity check",
+    "policy IDENTITY: add_credit touched account 5 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "add_credit touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 5 before the identity check",
+    "policy IDENTITY: add_credit touched account 5 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "add_credit touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "add_credit"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 1 before the identity check",
+    "policy IDENTITY: skip_delivery touched account 1 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/mk05-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "skip_delivery touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 1 before the identity check",
+    "policy IDENTITY: skip_delivery touched account 1 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "skip_delivery touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 1 before the identity check",
+    "policy IDENTITY: skip_delivery touched account 1 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "skip_delivery touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 1 before the identity check",
+    "policy IDENTITY: skip_delivery touched account 1 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "skip_delivery touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 2 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/mk06-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 2 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 2 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 2 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 6 before the identity check",
+    "policy IDENTITY: pause_subscription touched account 6 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/mk07-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "pause_subscription touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "pause_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 6 before the identity check",
+    "policy IDENTITY: pause_subscription touched account 6 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "pause_subscription touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "pause_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 6 before the identity check",
+    "policy IDENTITY: pause_subscription touched account 6 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "pause_subscription touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "pause_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 6 before the identity check",
+    "policy IDENTITY: pause_subscription touched account 6 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "pause_subscription touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "pause_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 4 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/mk08-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 4 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 4 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 4 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 4 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 3 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/mk09-seed101.json",
+   "turns": 5,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 3 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 5,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 3 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 5,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 3 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 5,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 3 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 5 before the identity check",
+    "policy IDENTITY: change_plan touched account 5 before the identity check"
+   ],
+   "seed": 101,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/mk10-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "change_plan touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "change_plan"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 5 before the identity check",
+    "policy IDENTITY: change_plan touched account 5 before the identity check"
+   ],
+   "seed": 102,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "change_plan touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "change_plan"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 5 before the identity check",
+    "policy IDENTITY: change_plan touched account 5 before the identity check"
+   ],
+   "seed": 103,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "change_plan touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "change_plan"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 5 before the identity check",
+    "policy IDENTITY: change_plan touched account 5 before the identity check"
+   ],
+   "seed": 104,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "change_plan touched account 5 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "change_plan"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 1 before the identity check",
+    "policy IDENTITY: change_plan touched account 1 before the identity check"
+   ],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/mk13-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "change_plan touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "change_plan"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 1 before the identity check",
+    "policy IDENTITY: change_plan touched account 1 before the identity check"
+   ],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "change_plan touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "change_plan"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 1 before the identity check",
+    "policy IDENTITY: change_plan touched account 1 before the identity check"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "change_plan touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "change_plan"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 1 before the identity check",
+    "policy IDENTITY: change_plan touched account 1 before the identity check"
+   ],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "change_plan touched account 1 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "change_plan"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 2 before the identity check",
+    "policy IDENTITY: skip_delivery touched account 2 before the identity check"
+   ],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 5,
+   "transcript_file": "results/transcripts/no-identity/mk14-seed101.json",
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "skip_delivery touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 2 before the identity check",
+    "policy IDENTITY: skip_delivery touched account 2 before the identity check"
+   ],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "skip_delivery touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 2 before the identity check",
+    "policy IDENTITY: skip_delivery touched account 2 before the identity check"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "skip_delivery touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 2 before the identity check",
+    "policy IDENTITY: skip_delivery touched account 2 before the identity check"
+   ],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    },
+    {
+     "detail": "skip_delivery touched account 2 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "skip_delivery"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 6 before the identity check"
+   ],
+   "seed": 101,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "transcript_file": "results/transcripts/no-identity/mk15-seed101.json",
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 6 before the identity check"
+   ],
+   "seed": 102,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 6 before the identity check"
+   ],
+   "seed": 103,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "no-identity",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": false,
+   "problems": [
+    "policy IDENTITY: get_subscription touched account 6 before the identity check"
+   ],
+   "seed": 104,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 7,
+   "violations": [
+    {
+     "detail": "get_subscription touched account 6 before the identity check",
+     "rule": "IDENTITY",
+     "tool": "get_subscription"
+    }
+   ],
+   "wrong_calls": 0
+  }
+ ]
+}

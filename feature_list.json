@@ -100,7 +100,7 @@
       "deskbench report",
       "deskbench readme --check"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F12",
@@ -110,7 +110,7 @@
       "deskbench record --provider groq --dry-run",
       "pytest tests/test_repo.py -k record"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F13",
@@ -119,7 +119,7 @@
     "steps": [
       "pytest tests/test_add_domain.py"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F14",
@@ -130,7 +130,7 @@
       "python scripts/check_links.py",
       "actionlint"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F15",
@@ -139,7 +139,7 @@
     "steps": [
       "pytest tests/test_repo.py -k study"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F16",

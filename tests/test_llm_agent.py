@@ -84,3 +84,13 @@ def test_client_refuses_plain_http_to_other_hosts():
 )
 def test_parse_action(text, want):
     assert parse_action(text) == want
+
+
+def test_record_resumes_from_saved_fixtures(tmp_path):
+    d = DOMAINS["salon"]
+    task = d.task("sl04")
+    with FakeServer(OracleBrain(d, 5)) as srv:
+        run_trial(d, task, LLMAgent(RecordClient(HttpClient(srv.url, "k", "m"), tmp_path)), 5)
+        first = len(srv.requests)
+        run_trial(d, task, LLMAgent(RecordClient(HttpClient(srv.url, "k", "m"), tmp_path)), 5)
+    assert first > 0 and len(srv.requests) == first

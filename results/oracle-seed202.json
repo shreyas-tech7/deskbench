@@ -1,0 +1,3694 @@
+{
+ "meta": {
+  "agent": "oracle",
+  "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+  "date": "2026-11-23",
+  "model": "none (scripted agent)",
+  "python": "3.11.18",
+  "seconds": 0.21,
+  "seed": 202,
+  "synthetic": false,
+  "trials": 4,
+  "version": "0.1.0rc1"
+ },
+ "summary": {
+  "all": {
+   "pass": {
+    "1": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "2": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "3": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "4": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "tasks": 45,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    9.177777777777777,
+    8.28888888888889,
+    9.933333333333334
+   ],
+   "violations": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "bikeparts": {
+   "pass": {
+    "1": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "2": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "3": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "4": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    9.533333333333333,
+    7.933333333333334,
+    10.866666666666667
+   ],
+   "violations": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "dev": {
+   "pass": {
+    "1": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "2": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "3": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "4": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "tasks": 30,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    10.133333333333333,
+    9.533333333333333,
+    10.733333333333333
+   ],
+   "violations": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "heldout": {
+   "pass": {
+    "1": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "2": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "3": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "4": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    7.266666666666667,
+    5.266666666666667,
+    9.133333333333333
+   ],
+   "violations": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "mealkit": {
+   "pass": {
+    "1": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "2": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "3": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "4": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    9.0,
+    7.533333333333333,
+    10.066666666666666
+   ],
+   "violations": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "salon": {
+   "pass": {
+    "1": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "2": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "3": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "4": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "tasks": 15,
+   "tokens": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "trials_per_task": 4,
+   "turns": [
+    9.0,
+    7.4,
+    10.333333333333334
+   ],
+   "violations": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "wrong_calls": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "trials": [
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk01",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk04",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk05",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "bk06",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk07",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk09",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk10",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk11",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "bk12",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "bk13",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [],
+   "task": "bk14",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "bikeparts",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "bk15",
+   "tokens": 0,
+   "tool_calls": 4,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write",
+    "window"
+   ],
+   "task": "sl02",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl03",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl04",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 13,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl05",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl07",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl08",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "transfer"
+   ],
+   "task": "sl09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl10",
+   "tokens": 0,
+   "tool_calls": 7,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [],
+   "task": "sl11",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "sl12",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "sl13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "sl14",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "salon",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "sl15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk01",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk02",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk03",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk04",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk05",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal",
+    "window"
+   ],
+   "task": "mk06",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk07",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk08",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk09",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 7,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "dev",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk10",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "transferred",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [
+    "transfer"
+   ],
+   "task": "mk11",
+   "tokens": 0,
+   "tool_calls": 1,
+   "turns": 1,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [],
+   "task": "mk12",
+   "tokens": 0,
+   "tool_calls": 2,
+   "turns": 5,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk13",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "resolved",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "write"
+   ],
+   "task": "mk14",
+   "tokens": 0,
+   "tool_calls": 6,
+   "turns": 11,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 202,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 203,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 204,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  },
+  {
+   "agent": "oracle",
+   "domain": "mealkit",
+   "outcome": "refused",
+   "passed": true,
+   "problems": [],
+   "seed": 205,
+   "split": "heldout",
+   "tags": [
+    "identity",
+    "refusal"
+   ],
+   "task": "mk15",
+   "tokens": 0,
+   "tool_calls": 5,
+   "turns": 9,
+   "violations": [],
+   "wrong_calls": 0
+  }
+ ]
+}
