@@ -198,3 +198,14 @@ def test_credit_rule_branches(sub, delivery, amount, why):
     disp.call("add_credit", {"subscriber_id": sub, "delivery_id": delivery, "amount_cents": amount}, YES)
     assert [v["rule"] for v in disp.violations] == ["MK_CREDIT"]
     assert why in disp.violations[0]["detail"]
+
+
+def test_out_of_range_argument_is_a_wrong_call_not_a_crash():
+    """Found in review: a huge id raised OverflowError from SQLite and killed the run."""
+    d = DOMAINS["bikeparts"]
+    disp = Dispatcher(d, d.fresh_db())
+    disp.session.verified = 1
+    out = disp.call("get_order", {"order_id": 99999999999999999999}, YES)
+    assert "error" in out and disp.wrong_calls == 1
+    out = disp.call("cancel_order", {"order_id": 10**30}, YES)
+    assert "error" in out and disp.wrong_calls == 2

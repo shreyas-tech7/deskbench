@@ -109,10 +109,10 @@ The full report, with a breakdown by domain and a failure list that links to tra
 <!-- gen:cost -->
 | Agent | Tokens per task | Turns per task | Wall time for the run |
 | --- | --- | --- | --- |
-| Oracle (scripted, follows policy) | 0 (0 to 0) | 9.2 (8.3 to 9.9) | 0.20 s |
-| Broken: skips the identity check | 0 (0 to 0) | 7.5 (6.8 to 8.2) | 0.22 s |
-| Broken: ignores time windows | 0 (0 to 0) | 9.5 (8.6 to 10.4) | 0.20 s |
-| Flaky: skips the yes on 1 in 4 changes (synthetic) | 0 (0 to 0) | 9.0 (8.1 to 9.7) | 0.18 s |
+| Oracle (scripted, follows policy) | 0 (0 to 0) | 9.2 (8.3 to 9.9) | 0.21 s |
+| Broken: skips the identity check | 0 (0 to 0) | 7.5 (6.8 to 8.2) | 0.23 s |
+| Broken: ignores time windows | 0 (0 to 0) | 9.5 (8.6 to 10.4) | 0.22 s |
+| Flaky: skips the yes on 1 in 4 changes (synthetic) | 0 (0 to 0) | 9.0 (8.1 to 9.7) | 0.19 s |
 
 Scripted agents send no tokens, so their cost is zero. Times are for 180 trials on one core of `Intel(R) Xeon(R) Processor @ 2.10GHz` on 2026-11-23.
 <!-- /gen:cost -->

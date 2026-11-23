@@ -75,3 +75,19 @@ def test_count_spec_and_new_rows():
 def test_deleted_row_is_a_change():
     before, db = _run(["DELETE FROM customers WHERE id = 8"], "resolved")
     assert any("unexpected change in customers" in p for p in check_db(before, snapshot(db), []))
+
+
+def test_extra_column_change_on_a_named_row_fails():
+    """Found in review: switching Tess's plan and also pausing her passed, because the row was covered."""
+    from deskbench.domains import DOMAINS
+    from deskbench.scorer import score, snapshot
+
+    d = DOMAINS["mealkit"]
+    db = d.fresh_db()
+    before = snapshot(db)
+    db.execute(
+        "UPDATE subscribers SET plan_code = 'FAM3', status = 'paused', paused_until = '2026-07-13' WHERE id = 5"
+    )
+    db.execute("UPDATE ticket SET status = 'resolved'")
+    res = score(d.task("mk10"), before, db, [])
+    assert not res["passed"] and any("status" in p for p in res["problems"])

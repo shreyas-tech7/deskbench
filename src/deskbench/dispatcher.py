@@ -31,14 +31,14 @@ class Dispatcher:
             entry["error"] = f"missing arguments: {', '.join(missing)}"
             return {"error": entry["error"]}
         ctx = CallCtx(tool, args, self.session, last_user)
-        for rule in self.domain.rules:  # checked on the state before the call runs
-            msg = rule.check(ctx)
-            if msg:
-                entry["violations"].append({"rule": rule.id, "detail": msg})
-        try:
+        try:  # a bad argument from a model (wrong type, huge number) is a wrong call, never a crash
+            for rule in self.domain.rules:  # checked on the state before the call runs
+                msg = rule.check(ctx)
+                if msg:
+                    entry["violations"].append({"rule": rule.id, "detail": msg})
             result = tool.fn(self.session, args)
             self.session.db.commit()
-        except (ToolError, ValueError, TypeError) as e:
+        except (ToolError, ValueError, TypeError, OverflowError, sqlite3.Error) as e:
             self.session.db.rollback()
             entry["error"] = str(e)
             return {"error": str(e)}
