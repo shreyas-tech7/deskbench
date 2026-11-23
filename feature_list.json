@@ -81,7 +81,7 @@
     "steps": [
       "pytest tests/test_llm_agent.py"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F10",
@@ -90,7 +90,7 @@
     "steps": [
       "pytest tests/test_metrics.py"
     ],
-    "passes": false
+    "passes": true
   },
   {
     "id": "F11",
