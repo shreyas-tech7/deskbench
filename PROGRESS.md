@@ -6,7 +6,7 @@
 - Results at seed 101 (4 trials, 45 tasks) for oracle, no-identity, no-windows and flaky, plus an oracle rerun at seed 202.
 - Record mode: blocked. No key, and the provider hosts are refused by the network (probed 2026-11-23). Written to results/record-status.json and the README.
 
-- F16: release check in docs/RELEASE_CHECK.md. The outside check found one scorer bug, fixed with a test. Hand-off in docs/HUMAN_STEPS.md, docs/handoff/COWORK_PROMPT.md and HANDOVER.md.
+- F16: release check in docs/RELEASE_CHECK.md. The outside check found one scorer bug, fixed with a test. Hand-off in docs/HUMAN_STEPS.md and HANDOVER.md.
 
 ## Next
 

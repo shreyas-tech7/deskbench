@@ -21,7 +21,7 @@ The fix: a `count` spec checks how many rows exist, and it allows no edit to an 
 
 ## Not checked
 
-- CI on GitHub. This machine has no `gh` and cannot read the Actions page. The coordinator or Shreyas checks the first run (step 1 of `docs/handoff/COWORK_PROMPT.md`).
+- CI on GitHub. This machine has no `gh` and cannot read the Actions page. The coordinator or Shreyas checks the first run.
 - A real model. Record mode is blocked, see `BLOCKERS.md`.
 
 ## Local run
